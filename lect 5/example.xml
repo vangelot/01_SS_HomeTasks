@@ -1,0 +1,12 @@
+<Messages>
+    <Message>
+        <From>Alice</From>
+        <To>Bob</To>
+        <Text>Hi</Text>
+    </Message>
+    <Message>
+        <From>Bob</From>
+        <To>Alice</To>
+        <Text>Hello</Text>
+    </Message>
+</Messages>

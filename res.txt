@@ -1,0 +1,380 @@
+asd
+12
+[1, 2, 4]
+дадада5
+6
+fg
+1: Winter
+2: Winter
+3: Spring
+4: Spring
+5: Spring
+6: Summer
+7: Summer
+8: Summer
+9: Autumn
+10: Autumn
+11: Autumn
+a: Winter
+22: 55
+(1, 2): 555
+22: 100
+print('Svaliavchyk Petro')def my_f(**kwargs):
+    for k, v in kwargs.items():
+        print(k, v)
+# my_f(a=1, b=2, c=3)
+
+s = 'abc'
+# s = s[:-1] delete last
+# s = s[1:] delete  first
+# s[0]='' не робить
+print(s)
+
+#print(s[0])import math
+print(2*4*math.pi)print(len("My name is Python"))def average(numbers):
+    # повертає середнє арифметичне елементів списку
+    sum = 0
+    for i in numbers:
+        sum += i
+    return sum/len(numbers)
+
+print(average([1, 8, 5, 4, 12]))
+dict_Films = {"Хрещений батько": 9.2,
+              "Втеча з Шоушенка": 9.2,
+              "Кримінальне чтиво": 8.8,
+              "Форест Гамп": 8.8,
+              "Славні хлопці": 8.7,
+              "Пролітаючи над гніздом зозулі": 8.6}
+spysok = [1, 2, 3]
+print(spysok[0])riadok = 'python IS a very large tree'
+print(riadok.upper())print("В одному кілобайті: "+str(8*1024)+" біт")s = 'P Y T H O N'
+print(s.replace(' ', ''))'''
+ps_03_01 = 3rd Homework, task #1, ps = Свалявчик П.
+
+За допомогою нескінченного циклу згенеруйте ряд чисел Фібоначчі.
+Ряд починається з чисел 1, 1, 2, 3, 5, 8, 13, а кожен наступний елемент -
+це сума двох попередніх
+'''
+
+last = 1
+previous = 1
+print(last)
+print(previous)
+
+while True:
+    last, previous = previous + last, last
+    print(last)'''
+ps_03_03 = 3rd Homework, task #2, ps = Свалявчик П.
+
+Створіть список, що містить числа від 0 до 100 та за допомогою List Comprehension
+отримайте з нього список чисел, що кратні 3.
+'''
+
+list_of_numbers = []
+
+for i in range(101):
+    # створення списку
+    list_of_numbers.append(i)
+# print(list_of_numbers) # - перевірка коректності створення списку
+
+list_divisible_3 = [i for i in list_of_numbers if i % 3 == 0]
+
+print(list_divisible_3)'''
+ps_03_03 = 3rd Homework, task #3, ps = Свалявчик П.
+
+Напишіть цикл for, який просить ввести ціле число 10 разів, а потім роздруковує
+у консолі суму всіх введених чисел
+'''
+
+list_of_numbers = []
+sum = 0
+for i in range(10):
+    list_of_numbers.append(int(input("Введіть " + str(i+1) + " число : ")))
+    sum += list_of_numbers[i]
+# print(list_of_numbers) # перевірка
+print('Sum is ' + str(sum))
+'''
+ps_03_04 = 3rd Homework, task #4, ps = Свалявчик П.
+
+Напишіть нескінченний цикл, який просить ввести ціле число і
+переривається, якщо введене число менше 0.
+'''
+
+while True:
+    a = int(input('Введіть число: '))
+    if a < 0:
+        print('Ай яй яй')
+        break
+'''
+ps_03_05 = 3rd Homework, task #5, ps = Свалявчик П.
+
+Напишіть код який просить ввести дві будь-які змінні, а потім міняє їх місцями.
+'''
+
+a = input("Введіть 1 змінну (a) : ")
+b = input("Введіть 2 змінну (b) : ")
+a, b = b, a
+print("a = "+str(a)+"\nb =",b) #
+'''
+ps_04_01 = 4th Homework, task #1, ps = Свалявчик П.
+
+Напишіть функцію, яка приймає номер місяця та повертає рядок з назвою пори року, до якої
+цей місяць відноситься
+'''
+
+seasons = {
+    # Словник пір року
+    1 : "Winter",
+    2 : "Winter",
+    3 : "Spring",
+    4 : "Spring",
+    5 : "Spring",
+    6 : "Summer",
+    7 : "Summer",
+    8 : "Summer",
+    9 : "Autumn",
+    10: "Autumn",
+    11: "Autumn",
+    12: "Winter"
+}
+
+def season_detect(month_number):
+    '''
+    Отримує номер місяця: якщо на вході числа 1-12 повертає назву місяця,
+    Якщо ввели ***ню повертає теж саме)
+    '''
+    try:
+        month_number = int(month_number)
+    except:
+        return "Некоректний ввод"
+
+    if month_number in seasons.keys():
+        for key, value in seasons.items():
+            if key == month_number:
+                return value
+    else:
+        return "No such month"
+print(season_detect(input("Введіть номер місяця: ")))
+'''
+ps_04_02 = 4th Homework, task #2, ps = Свалявчик П.
+
+Напишіть функцію, яка приймає довільну кількість словників, збирає їх
+в один словник та повертає його
+'''
+
+def combine_dics(*dics):
+    result_dic = {}
+    for i in dics:
+        result_dic.update(i)
+    return result_dic
+
+# для прикладу (про повтори ключів нічого не сказано)
+print(combine_dics({1: '22', 'a': "44"},{'b': 10, 1: '223'}))
+'''
+ps_04_03 = 4th Homework, task #3, ps = Свалявчик П.
+
+Напишіть функцію, яка перевіряє, чи є слово паліндромом та повертає
+відповідно True чи False. Паліндром - це слово, яке однаково читається
+зліва направо та справа наліво. Наприклад, "випив"
+'''
+
+def is_polindrom(word):
+    while len(word) >= 3:
+        if word[0] == word[-1]:
+            word = word[1:] # видаляєм перший символ
+            word = word[:-1] # видаляєм останній символ
+        else:
+            return False
+    if word[0] == word[-1]:
+        return True
+    else:
+        return False
+
+print(is_polindrom('aabbaaa')) # для перевіркиdef is_polindrom(word):
+    if (len(word) == 1) or (len(word) == 0):
+        return True
+    while len(word) > 1:
+        if word[0] == word[-1]:
+            return is_polindrom(word[1:-1])
+        else:
+            return False
+print(is_polindrom('b'))'''
+ps_04_03 = 4th Homework, task #3, ps = Свалявчик П.
+
+Напишіть функцію, яка перевіряє, чи є слово паліндромом та повертає
+відповідно True чи False. Паліндром - це слово, яке однаково читається
+зліва направо та справа наліво. Наприклад, "випив"
+'''
+
+def is_polindrom(word):
+    print(len(word))
+    if len(word) <= 1:
+        return True
+    elif len(word) == 2:
+        print(word)
+        if word[0] == word[1]:
+            print('dadada')
+            return True
+        else:
+            return False
+    else:
+        print('hi', word)
+        while len(word) >= 3:
+            if word[0] == word[-1]:
+                word = word[1:] # видаляєм перший символ
+                word = word[:-1] # видаляєм останній символ
+                is_polindrom(word)
+            else:
+                return False
+
+print(is_polindrom('aaddaa'))'''
+ps_04_04 = 4th Homework, task #4, ps = Свалявчик П.
+
+Напишіть функцію, яка приймає ціле число та повертає суму всіх його цифр.
+Наприклад, 437. 4+3+7=14
+'''
+
+def sum_numbers(number):
+    str_number = str(number)
+    sum = 0
+    while len(str_number) > 0:
+        sum += int(str_number[0])
+        str_number = str_number[1:]
+    return sum
+print(sum_numbers(1))
+'''
+ps_04_05 = 4th Homework, task #5, ps = Свалявчик П.
+
+Напишіть функцію, яка приймає рядок та повертає літеру, яка зустрічається в
+ньому найчастіше
+'''
+
+
+def max_letter(str):
+    max_count = 1
+    max_index = 0
+    list_of_sum = []
+    list_of_letters = list(str)
+    for i in range(len(list_of_letters)):
+        list_of_sum.append(1)
+        for j in range(i+1, len(list_of_letters)):
+            if list_of_letters[j] == list_of_letters[i]:
+                list_of_sum[i] += 1
+                # print(max_count)
+                if list_of_sum[i] > max_count:
+                    max_count = list_of_sum[i]
+                    max_index = i
+    return list_of_letters[max_index]
+
+print(max_letter('abcaaccccaaaaccc'))
+
+# file = open (r'D:\_DATA SCIENCE\CourseProjects\111.txt', encoding='utf-8')
+# file = open ('111.txt', 'a+', encoding='utf-8')
+# file.seek(0)
+# print(file.read(5))
+#
+seasons = {
+    # Словник пір року
+    1 : "Winter",
+    2 : "Winter",
+    3 : "Spring",
+    4 : "Spring",
+    5 : "Spring",
+    6 : "Summer",
+    7 : "Summer",
+    8 : "Summer",
+    9 : "Autumn",
+    10: "Autumn",
+    11: "Autumn",
+    'a': "Winter",
+    22 : 55,
+    (1 ,2) : 555,
+    '22' : 100
+}
+
+def file_filling (name, dic={}):
+    file = open(name, 'w')
+    # file.write('hello')
+    for key in dic:
+        file.write(str(key)+': '+str(dic[key])+'\n')
+    file.close()
+
+file_filling('223.txt', seasons)
+import os
+def dict_create(file_name):
+    file = open(file_name, 'r')
+    list_of_lines = file.readlines()
+    dict_result = {}
+    print('helo')
+    def line_to_keyvalue(line):
+        key = ''
+        value = ''
+        index = 0
+        # tuple = (key, value)
+        while line[index] != ' ':
+            # print(index)
+            key += line[index]
+            index += 1
+        index += 1
+        while line[index] != '\n':
+            value += line[index]
+            index += 1
+        # tuple = (key, value)
+        return key, value
+
+    for line in list_of_lines:
+        dict_result.update({line_to_keyvalue(line)})
+
+    file.close()
+    return dict_result
+
+#print(dict_create('223.txt'))
+
+file_res = open('res.txt','w')
+for file in os.listdir():
+    if file != 'res.txt' and os.path.isfile(file):
+        try:
+            s = open(file)
+            file_res.write(s.read())
+            s.close()
+        except:
+            pass
+
+file_res.close()import first
+print('type = ' + str(type(first)) + '\nid = ' + str(id(first)))
+
+
+a = 'a'
+print(str(a))
+
+dict = {}
+
+dict.update({1: 2})
+print(dict)def s(a, *vs, b=10):
+   res = a + b
+   print(vs)
+   for v in vs:
+       res += v
+   return res
+# print(s(0, 0, 31))
+
+def fibo(k):
+    sum = 0
+    if (k == 0) or (k == 1):
+        return 1
+    else:
+        return fibo(k-1) + fibo(k-2)
+# print(fibo(6))
+
+n, k = map(int, input().split())
+
+def cnk(n, k):
+    if k > n:
+        return 0
+    if k == 0:
+        return 1
+    else:
+        return cnk(n-1, k) + cnk(n-1,k-1)
+
+
+print(cnk(n, k))

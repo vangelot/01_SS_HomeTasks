@@ -1,0 +1,1 @@
+print('Svaliavchyk Petro')

@@ -1,0 +1,11 @@
+{
+   "name": "John",
+   "address": {
+       "street": "First Street 12",
+       "city": "Cityname"
+   },
+   "numbers": [
+       "+123456712",
+       "+765432112"
+   ]
+}

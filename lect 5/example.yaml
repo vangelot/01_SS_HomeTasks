@@ -1,0 +1,14 @@
+--- # block
+- first
+- second
+- third
+-
+--- # one-line
+[first, second, first]
+
+--- # block
+name: John
+surname: Johnson
+
+--- # one-line
+{name: John, surname: Johnson}
