@@ -10,6 +10,3 @@ print("hello")
 # On branch master
 print("hello")
 print("hello!!!")
-print("1")
-print("1")
-print("1")
