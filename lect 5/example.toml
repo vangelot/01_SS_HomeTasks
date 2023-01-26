@@ -1,0 +1,14 @@
+title = "Example TOML"
+
+[creator]
+name = "Admin"
+ip = "8.8.8.8"
+
+[messages]
+    [message.m001]
+    text = "Hello World"
+    hidden = false
+
+    [message.m002]
+    text = "Hello World 2"
+    hidden = true

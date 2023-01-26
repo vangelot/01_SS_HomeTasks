@@ -1,0 +1,1837 @@
+[33mcommit e856dc119f285ab1f23682fa7a25b970edf5add1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 07:25:59 2023 +0200
+
+    aaa
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex 01bced6..64adcd8 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -10,6 +10,3 @@[m [mprint("hello")[m
+ # On branch master[m
+ print("hello")[m
+ print("hello!!!")[m
+[31m-print("1")[m
+[31m-print("1")[m
+[31m-print("1")[m
+
+[33mcommit faad40bd6455e6b64d997a15463c45f1c62ff075[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 07:18:09 2023 +0200
+
+    aaa
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex 015f071..01bced6 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -6,3 +6,10 @@[m [mprint("hello")[m
+ print("hello")[m
+ [m
+ print("hello")[m
+[32m+[m[32m#[m
+[32m+[m[32m# On branch master[m
+[32m+[m[32mprint("hello")[m
+[32m+[m[32mprint("hello!!!")[m
+[32m+[m[32mprint("1")[m
+[32m+[m[32mprint("1")[m
+[32m+[m[32mprint("1")[m
+
+[33mcommit d150c4fd64a42f053eb64df84f7fcd2a9aaa98cc[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 07:15:03 2023 +0200
+
+    fasdfaaaaaa
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex 2f4cec4..015f071 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -5,3 +5,4 @@[m [mprint("hello")[m
+ [m
+ print("hello")[m
+ [m
+[32m+[m[32mprint("hello")[m
+
+[33mcommit f091e56811683512501a57c006b8337c9cb5fc01[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 07:12:22 2023 +0200
+
+    6th
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex fd5fb08..2f4cec4 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -2,3 +2,6 @@[m [mimport math[m
+ print(2*4*math.pi)[m
+ [m
+ print("hello")[m
+[32m+[m
+[32m+[m[32mprint("hello")[m
+[41m+[m
+
+[33mcommit 5a87d569bb6218283a97f4e87144b65506a41f81[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 07:09:04 2023 +0200
+
+    fifth
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex 691c935..fd5fb08 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -2,4 +2,3 @@[m [mimport math[m
+ print(2*4*math.pi)[m
+ [m
+ print("hello")[m
+[31m-print("hello")[m
+
+[33mcommit 95514a1330911eb964bcb970d03dd060d28e6fd8[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 06:58:02 2023 +0200
+
+    yhird
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex 69a3662..691c935 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -1,4 +1,5 @@[m
+ import math[m
+ print(2*4*math.pi)[m
+ [m
+[31m-print("hello")[m
+\ No newline at end of file[m
+[32m+[m[32mprint("hello")[m
+[32m+[m[32mprint("hello")[m
+
+[33mcommit 6b39b80b56a2aad78cc2e09af57538a5d7701dec[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 06:57:45 2023 +0200
+
+    yhird
+
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mindex f4da613..69a3662 100644[m
+[1m--- a/ps_02_01.py[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -1,2 +1,4 @@[m
+ import math[m
+[31m-print(2*4*math.pi)[m
+\ No newline at end of file[m
+[32m+[m[32mprint(2*4*math.pi)[m
+[32m+[m
+[32m+[m[32mprint("hello")[m
+\ No newline at end of file[m
+
+[33mcommit 0b1b05e26cc8f73d47f56e09abfc144acabc09e3[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 06:50:19 2023 +0200
+
+    second
+
+[1mdiff --git a/223.txt b/223.txt[m
+[1mindex 6e15100..e69de29 100644[m
+[1m--- a/223.txt[m
+[1m+++ b/223.txt[m
+[36m@@ -1,15 +0,0 @@[m
+[31m-1: Winter[m
+[31m-2: Winter[m
+[31m-3: Spring[m
+[31m-4: Spring[m
+[31m-5: Spring[m
+[31m-6: Summer[m
+[31m-7: Summer[m
+[31m-8: Summer[m
+[31m-9: Autumn[m
+[31m-10: Autumn[m
+[31m-11: Autumn[m
+[31m-a: Winter[m
+[31m-22: 55[m
+[31m-(1, 2): 555[m
+[31m-22: 100[m
+[1mdiff --git a/225.txt b/225.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ef54628[m
+[1m--- /dev/null[m
+[1m+++ b/225.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mttt[m
+\ No newline at end of file[m
+
+[33mcommit e8ae1bddbba326bed7a9be300d11313cae13d57c[m
+Author: vangelot <chuli@ukr.net>
+Date:   Tue Jan 24 06:11:00 2023 +0200
+
+    initial proxy version
+
+[1mdiff --git a/.idea/.gitignore b/.idea/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..26d3352[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/.gitignore[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32m# Default ignored files[m
+[32m+[m[32m/shelf/[m
+[32m+[m[32m/workspace.xml[m
+[1mdiff --git a/.idea/CourseProjects.iml b/.idea/CourseProjects.iml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..74d515a[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/CourseProjects.iml[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<module type="PYTHON_MODULE" version="4">[m
+[32m+[m[32m  <component name="NewModuleRootManager">[m
+[32m+[m[32m    <content url="file://$MODULE_DIR$">[m
+[32m+[m[32m      <excludeFolder url="file://$MODULE_DIR$/venv" />[m
+[32m+[m[32m    </content>[m
+[32m+[m[32m    <orderEntry type="inheritedJdk" />[m
+[32m+[m[32m    <orderEntry type="sourceFolder" forTests="false" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</module>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..105ce2d[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/inspectionProfiles/profiles_settings.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<component name="InspectionProjectProfileManager">[m
+[32m+[m[32m  <settings>[m
+[32m+[m[32m    <option name="USE_PROJECT_PROFILE" value="false" />[m
+[32m+[m[32m    <version value="1.0" />[m
+[32m+[m[32m  </settings>[m
+[32m+[m[32m</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/misc.xml b/.idea/misc.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2e95c3b[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/misc.xml[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11 (CourseProjects)" project-jdk-type="Python SDK" />[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/modules.xml b/.idea/modules.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f913605[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/modules.xml[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="ProjectModuleManager">[m
+[32m+[m[32m    <modules>[m
+[32m+[m[32m      <module fileurl="file://$PROJECT_DIR$/.idea/CourseProjects.iml" filepath="$PROJECT_DIR$/.idea/CourseProjects.iml" />[m
+[32m+[m[32m    </modules>[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/.idea/vcs.xml b/.idea/vcs.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..35eb1dd[m
+[1m--- /dev/null[m
+[1m+++ b/.idea/vcs.xml[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<project version="4">[m
+[32m+[m[32m  <component name="VcsDirectoryMappings">[m
+[32m+[m[32m    <mapping directory="" vcs="Git" />[m
+[32m+[m[32m  </component>[m
+[32m+[m[32m</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/00 Kata_Range Extraction.py b/00 Kata_Range Extraction.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dbb9235[m
+[1m--- /dev/null[m
+[1m+++ b/00 Kata_Range Extraction.py[m	
+[36m@@ -0,0 +1,32 @@[m
+[32m+[m[32mdef solution(args):[m
+[32m+[m[32m    # your code here[m
+[32m+[m[32m    res = ''[m
+[32m+[m[32m    i = 0[m
+[32m+[m[32m    while i <= len(args) - 3: #генеральный цикл доходим до конца[m
+[32m+[m[32m            if (args[i]+1 == args[i+1]) and (args[i+1]+1 == args[i+2]):[m
+[32m+[m[32m                res += str(args[i]) + '-'[m
+[32m+[m[32m                while (args[i] + 1 == args[i+1]):[m
+[32m+[m[32m                    i += 1[m
+[32m+[m[32m                    if i == len(args)-1:[m
+[32m+[m[32m                        break[m
+[32m+[m[32m                if i == len(args)-1:[m
+[32m+[m[32m                    res += str(args[i])[m
+[32m+[m[32m                    return res[m
+[32m+[m[32m                else:[m
+[32m+[m[32m                    res += str(args[i]) + ','[m
+[32m+[m[32m                i += 1[m
+[32m+[m[32m            else:[m
+[32m+[m[32m                res += str(args[i]) + ','[m
+[32m+[m[32m                i += 1[m
+[32m+[m[32m    if i == len(args)-2:[m
+[32m+[m[32m        res += str(args[i]) + ','[m
+[32m+[m[32m        i += 1[m
+[32m+[m[32m    if i == len(args)-1:[m
+[32m+[m[32m        res += str(args[i])[m
+[32m+[m[32m        i += 1[m
+[32m+[m[32m            #print('yes')[m
+[32m+[m[32m    return res[m
+[32m+[m[32m#print(solution([1, 2]))[m
+[32m+[m[32mprint(solution([1, 3, 4, 5, 7, 8, 9]))[m
+[32m+[m[32m# '-6,-3-1,3-5,7-11,14-15,17-20' should equal[m
+[32m+[m[32m# '-6,-3-1,3-5,7-11,14,15,17-20'[m
+\ No newline at end of file[m
+[1mdiff --git a/01 Kata_Unique In Order.py b/01 Kata_Unique In Order.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5385fb9[m
+[1m--- /dev/null[m
+[1m+++ b/01 Kata_Unique In Order.py[m	
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mdef unique_in_order(iterable):[m
+[32m+[m[32m    i = 1[m
+[32m+[m[32m    res = [][m
+[32m+[m[32m    res.append(iterable[0])[m
+[32m+[m[32m    while i < len(iterable):[m
+[32m+[m[32m        if iterable[i] == res[-1]:[m
+[32m+[m[32m            i += 1[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            res.append(iterable[i])[m
+[32m+[m[32m        if i < len(iterable)-1:[m
+[32m+[m[32m            while iterable[i] == iterable[i+1]:[m
+[32m+[m[32m                i += 1[m
+[32m+[m[32m                if i == len(iterable)-1:[m
+[32m+[m[32m                    break[m
+[32m+[m[32m    return res[m
+[32m+[m[32mprint(unique_in_order('AAAABBBCCDAABBB'))[m
+\ No newline at end of file[m
+[1mdiff --git a/01 stepik.py b/01 stepik.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..95f6d71[m
+[1m--- /dev/null[m
+[1m+++ b/01 stepik.py[m	
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32mimport first[m
+[32m+[m[32m#Есть list объектов objects: посчитать к-во неповторяемых элементов[m
+[32m+[m[32mobjects = [1, 2 ,3, 3, 1, 1][m
+[32m+[m[32mans = 0[m
+[32m+[m[32mres = [][m
+[32m+[m[32mwhile len(objects) > 0: # доступная переменная objects[m
+[32m+[m[32m    res.append(objects[0])[m
+[32m+[m[32m    a = objects[0][m
+[32m+[m[32m    while a in objects:[m
+[32m+[m[32m        objects.remove(a)[m
+[32m+[m[32mprint(len(res))[m
+[1mdiff --git a/02 Kata_Find the unique number.py b/02 Kata_Find the unique number.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..18fec66[m
+[1m--- /dev/null[m
+[1m+++ b/02 Kata_Find the unique number.py[m	
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mdef find_uniq(arr):[m
+[32m+[m[32m    # your code here[m
+[32m+[m[32m    print('govno')[m
+[32m+[m[32m    if (arr[0] == arr[1])+(arr[0] == arr[5]):[m
+[32m+[m[32m        repeated = arr[0][m
+[32m+[m[32m    else:[m
+[32m+[m[32m        repeated = arr[1][m
+[32m+[m[32m    # while repeated in arr:[m
+[32m+[m[32m    #     arr.remove(repeated)[m
+[32m+[m[32m    for i in range(0,len(arr)):[m
+[32m+[m[32m        if arr[i] != repeated:[m
+[32m+[m[32m            return arr[i][m
+[32m+[m[32m    return 0   # n: unique number in the array[m
+[32m+[m[32mprint(find_uniq([1, 2, 2]))[m
+\ No newline at end of file[m
+[1mdiff --git a/03 Kata_Playing with digits.py b/03 Kata_Playing with digits.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..14d370c[m
+[1m--- /dev/null[m
+[1m+++ b/03 Kata_Playing with digits.py[m	
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32mdef dig_pow(n, p):[m
+[32m+[m[32m    # your code[m
+[32m+[m[32m    n_string = str(n)[m
+[32m+[m[32m    polinom = 0[m
+[32m+[m[32m    for i in range(len(n_string)):[m
+[32m+[m[32m        polinom += int(n_string[i])**(p+i)[m
+[32m+[m[32m    # print(polinom)[m
+[32m+[m[32m    if (polinom % n) == 0:[m
+[32m+[m[32m        return polinom // n[m
+[32m+[m[32m    return -1[m
+[32m+[m[32mprint(dig_pow(695,2))[m
+\ No newline at end of file[m
+[1mdiff --git a/04 Kata_Remove the parentheses.py b/04 Kata_Remove the parentheses.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f8290d4[m
+[1m--- /dev/null[m
+[1m+++ b/04 Kata_Remove the parentheses.py[m	
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32mdef remove_parentheses(s):[m
+[32m+[m[32m    i = 0[m
+[32m+[m[32m    res=''[m
+[32m+[m[32m    while i < len(s):[m
+[32m+[m[32m        if (s[i] == "(") and (")" in s[0:i]+s[i+1:]):[m
+[32m+[m[32m            remove_parentheses(res + s[0:i]+s[i+1:])[m
+[32m+[m[32m            #i += 1[m
+[32m+[m[32m            while s[i] != ")":[m
+[32m+[m[32m                i += 1[m
+[32m+[m[32m            i += 1[m
+[32m+[m[32m            res += s[i][m
+[32m+[m[32m            i += 1[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            res += s[i][m
+[32m+[m[32m            i += 1[m
+[32m+[m[32m    return res[m
+[32m+[m[32mprint(remove_parentheses('(((f)x'))[m
+\ No newline at end of file[m
+[1mdiff --git a/05 lect.py b/05 lect.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..285d215[m
+[1m--- /dev/null[m
+[1m+++ b/05 lect.py[m	
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32mimport os[m
+[32m+[m
+[32m+[m[32m# file_res = open('res.txt','w')[m
+[32m+[m[32m# for file in os.listdir():[m
+[32m+[m[32m#     if file != 'res.txt' and os.path.isfile(file):[m
+[32m+[m[32m#         try:[m
+[32m+[m[32m#             s = open(file)[m
+[32m+[m[32m#             file_res.write(s.read())[m
+[32m+[m[32m#             s.close()[m
+[32m+[m[32m#         except:[m
+[32m+[m[32m#             pass[m
+[32m+[m[32m#[m
+[32m+[m[32m# file_res.close()[m
+[32m+[m
+[32m+[m[32mprint(os.getcwd())[m
+\ No newline at end of file[m
+[1mdiff --git a/111.txt b/111.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d28b297[m
+[1m--- /dev/null[m
+[1m+++ b/111.txt[m
+[36m@@ -0,0 +1,4 @@[m
+[32m+[m[32masd[m
+[32m+[m[32m12[m
+[32m+[m[32m[1, 2, 4][m
+[32m+[m[32mдадада[m
+\ No newline at end of file[m
+[1mdiff --git a/222.txt b/222.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..99bee4d[m
+[1m--- /dev/null[m
+[1m+++ b/222.txt[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32m5[m
+[32m+[m[32m6[m
+[32m+[m[32mfg[m
+[1mdiff --git a/223.txt b/223.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6e15100[m
+[1m--- /dev/null[m
+[1m+++ b/223.txt[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m1: Winter[m
+[32m+[m[32m2: Winter[m
+[32m+[m[32m3: Spring[m
+[32m+[m[32m4: Spring[m
+[32m+[m[32m5: Spring[m
+[32m+[m[32m6: Summer[m
+[32m+[m[32m7: Summer[m
+[32m+[m[32m8: Summer[m
+[32m+[m[32m9: Autumn[m
+[32m+[m[32m10: Autumn[m
+[32m+[m[32m11: Autumn[m
+[32m+[m[32ma: Winter[m
+[32m+[m[32m22: 55[m
+[32m+[m[32m(1, 2): 555[m
+[32m+[m[32m22: 100[m
+[1mdiff --git a/224.json b/224.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..771be95[m
+[1m--- /dev/null[m
+[1m+++ b/224.json[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m    "1": "Winter",[m
+[32m+[m[32m    "2": "Winter",[m
+[32m+[m[32m    "3": "Spring",[m
+[32m+[m[32m    "4": "Spring",[m
+[32m+[m[32m    "5": "Spring",[m
+[32m+[m[32m    "6": "Summer",[m
+[32m+[m[32m    "7": "Summer",[m
+[32m+[m[32m    "8": "Summer",[m
+[32m+[m[32m    "9": "Autumn",[m
+[32m+[m[32m    "10": "Autumn",[m
+[32m+[m[32m    "11.1": "Autumn",[m
+[32m+[m[32m    "a": "Winter",[m
+[32m+[m[32m    "22": 55,[m
+[32m+[m[32m    "22": 100[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
+[1mdiff --git a/224.txt b/224.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1740698[m
+[1m--- /dev/null[m
+[1m+++ b/224.txt[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m1:"Winter"[m
+[32m+[m[32m2:"Winter"[m
+[32m+[m[32m3:"Spring"[m
+[32m+[m[32m4:"Spring"[m
+[32m+[m[32m5:"Spring"[m
+[32m+[m[32m6:"Summer"[m
+[32m+[m[32m7:"Summer"[m
+[32m+[m[32m8:"Summer"[m
+[32m+[m[32m9:"Autumn"[m
+[32m+[m[32m10.1:"Autumn"[m
+[32m+[m[32m11:"Autumn"[m
+[32m+[m[32m"a":"Winter"[m
+[32m+[m[32m22:55[m
+[32m+[m[32m(1, 2):555[m
+[32m+[m[32m"22":"100"[m
+[1mdiff --git a/2nd_course_hometask.py b/2nd_course_hometask.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..920039e[m
+[1m--- /dev/null[m
+[1m+++ b/2nd_course_hometask.py[m
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mn = int(input())[m
+[32m+[m[32mx = 0[m
+[32m+[m[32mfor i in range(n):[m
+[32m+[m[32m    x += int(input())[m
+[32m+[m[32mprint(x)[m
+[32m+[m[32m'''[m
+[32m+[m[32mx = '2'[m
+[32m+[m[32mx = 4[m
+[32m+[m[32mx = 'asdf'[m
+[32m+[m[32mtype(x)[m
+\ No newline at end of file[m
+[1mdiff --git a/__pycache__/first.cpython-311.pyc b/__pycache__/first.cpython-311.pyc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0541673[m
+Binary files /dev/null and b/__pycache__/first.cpython-311.pyc differ
+[1mdiff --git a/_tmp.py b/_tmp.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fe4d9d6[m
+[1m--- /dev/null[m
+[1m+++ b/_tmp.py[m
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m#[m
+[32m+[m[32m# a = 'a'[m
+[32m+[m[32m# print(str(a))[m
+[32m+[m[32m#[m
+[32m+[m[32m# dict = {}[m
+[32m+[m[32m#[m
+[32m+[m[32m# dict.update({1: 2})[m
+[32m+[m[32m# print(dict)[m
+[32m+[m[32m#[m
+[32m+[m[32m# a = 'asdf'[m
+[32m+[m[32m# if 's' in a:[m
+[32m+[m[32m#     print(a)[m
+[32m+[m
+[32m+[m[32ma = 12434[m
+[32m+[m[32mres = 0[m
+[32m+[m[32mprint(str(a))[m
+[32m+[m
+[32m+[m[32mfor i in range(len(str(a))):[m
+[32m+[m[32m    ost = a % 10[m
+[32m+[m[32m    res += ost*(10 ** (len(str(a))-1))[m
+[32m+[m[32m    a = a // 10[m
+[32m+[m
+[32m+[m[32mprint(res)[m
+\ No newline at end of file[m
+[1mdiff --git a/_tmp_STEPIK.py b/_tmp_STEPIK.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e0c97bb[m
+[1m--- /dev/null[m
+[1m+++ b/_tmp_STEPIK.py[m
+[36m@@ -0,0 +1,28 @@[m
+[32m+[m[32mdef s(a, *vs, b=10):[m
+[32m+[m[32m   res = a + b[m
+[32m+[m[32m   print(vs)[m
+[32m+[m[32m   for v in vs:[m
+[32m+[m[32m       res += v[m
+[32m+[m[32m   return res[m
+[32m+[m[32m# print(s(0, 0, 31))[m
+[32m+[m
+[32m+[m[32mdef fibo(k):[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    if (k == 0) or (k == 1):[m
+[32m+[m[32m        return 1[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return fibo(k-1) + fibo(k-2)[m
+[32m+[m[32m# print(fibo(6))[m
+[32m+[m
+[32m+[m[32mn, k = map(int, input().split())[m
+[32m+[m
+[32m+[m[32mdef cnk(n, k):[m
+[32m+[m[32m    if k > n:[m
+[32m+[m[32m        return 0[m
+[32m+[m[32m    if k == 0:[m
+[32m+[m[32m        return 1[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return cnk(n-1, k) + cnk(n-1,k-1)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprint(cnk(n, k))[m
+\ No newline at end of file[m
+[1mdiff --git a/config.txt b/config.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..78912cf[m
+[1m--- /dev/null[m
+[1m+++ b/config.txt[m
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mip = "199.199.100.100"[m
+[32m+[m[32mport = "3308"[m
+[32m+[m[32mpassword = "asdf"[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/dict.json b/dict.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/first.py b/first.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..501a686[m
+[1m--- /dev/null[m
+[1m+++ b/first.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mprint('Svaliavchyk Petro')[m
+[1mdiff --git a/lect 5/Lesson6.py b/lect 5/Lesson6.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..65cd93c[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/Lesson6.py[m	
+[36m@@ -0,0 +1,22 @@[m
+[32m+[m[32mimport sys[m
+[32m+[m[32mimport pathlib[m
+[32m+[m[32mimport os.path[m
+[32m+[m
+[32m+[m[32mprint("ok", file=sys.stdout)[m
+[32m+[m[32mprint("error", file=sys.stderr)[m
+[32m+[m
+[32m+[m[32mstring = "test"[m
+[32m+[m[32mprint(type(string.encode()))[m
+[32m+[m
+[32m+[m[32ml = [1, 2, 3][m
+[32m+[m[32mprint(*l, sep=";", end="\n")[m
+[32m+[m
+[32m+[m[32mwith open('test.txt') as f:[m
+[32m+[m[32m    print(f.read())[m
+[32m+[m
+[32m+[m[32mp = pathlib.Path('test.txt')[m
+[32m+[m[32mprint(p.resolve())[m
+[32m+[m
+[32m+[m[32mfiles = [f for f in os.listdir('.') if os.path.isfile(f)][m
+[32m+[m[32mfor f in files:[m
+[32m+[m[32m    print(f)[m
+[1mdiff --git a/lect 5/example.json b/lect 5/example.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9f5c2f1[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/example.json[m	
+[36m@@ -0,0 +1,11 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m   "name": "John",[m
+[32m+[m[32m   "address": {[m
+[32m+[m[32m       "street": "First Street 12",[m
+[32m+[m[32m       "city": "Cityname"[m
+[32m+[m[32m   },[m
+[32m+[m[32m   "numbers": [[m
+[32m+[m[32m       "+123456712",[m
+[32m+[m[32m       "+765432112"[m
+[32m+[m[32m   ][m
+[32m+[m[32m}[m
+[1mdiff --git a/lect 5/example.toml b/lect 5/example.toml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9340e69[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/example.toml[m	
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32mtitle = "Example TOML"[m
+[32m+[m
+[32m+[m[32m[creator][m
+[32m+[m[32mname = "Admin"[m
+[32m+[m[32mip = "8.8.8.8"[m
+[32m+[m
+[32m+[m[32m[messages][m
+[32m+[m[32m    [message.m001][m
+[32m+[m[32m    text = "Hello World"[m
+[32m+[m[32m    hidden = false[m
+[32m+[m
+[32m+[m[32m    [message.m002][m
+[32m+[m[32m    text = "Hello World 2"[m
+[32m+[m[32m    hidden = true[m
+[1mdiff --git a/lect 5/example.xml b/lect 5/example.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6808a86[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/example.xml[m	
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m<Messages>[m
+[32m+[m[32m    <Message>[m
+[32m+[m[32m        <From>Alice</From>[m
+[32m+[m[32m        <To>Bob</To>[m
+[32m+[m[32m        <Text>Hi</Text>[m
+[32m+[m[32m    </Message>[m
+[32m+[m[32m    <Message>[m
+[32m+[m[32m        <From>Bob</From>[m
+[32m+[m[32m        <To>Alice</To>[m
+[32m+[m[32m        <Text>Hello</Text>[m
+[32m+[m[32m    </Message>[m
+[32m+[m[32m</Messages>[m
+[1mdiff --git a/lect 5/example.yaml b/lect 5/example.yaml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..da90260[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/example.yaml[m	
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m--- # block[m
+[32m+[m[32m- first[m
+[32m+[m[32m- second[m
+[32m+[m[32m- third[m
+[32m+[m[32m-[m
+[32m+[m[32m--- # one-line[m
+[32m+[m[32m[first, second, first][m
+[32m+[m
+[32m+[m[32m--- # block[m
+[32m+[m[32mname: John[m
+[32m+[m[32msurname: Johnson[m
+[32m+[m
+[32m+[m[32m--- # one-line[m
+[32m+[m[32m{name: John, surname: Johnson}[m
+[1mdiff --git a/lect 5/test.txt b/lect 5/test.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..272b2e4[m
+[1m--- /dev/null[m
+[1m+++ b/lect 5/test.txt[m	
+[36m@@ -0,0 +1,3 @@[m
+[32m+[m[32mfirst line[m
+[32m+[m[32msecond line[m
+[32m+[m[32mthird line[m
+\ No newline at end of file[m
+[1mdiff --git a/lection_TMP.py b/lection_TMP.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..541d69f[m
+[1m--- /dev/null[m
+[1m+++ b/lection_TMP.py[m
+[36m@@ -0,0 +1,13 @@[m
+[32m+[m[32mdef my_f(**kwargs):[m
+[32m+[m[32m    for k, v in kwargs.items():[m
+[32m+[m[32m        print(k, v)[m
+[32m+[m[32m# my_f(a=1, b=2, c=3)[m
+[32m+[m
+[32m+[m[32ms = 'abc'[m
+[32m+[m[32m# s = s[:-1] delete last[m
+[32m+[m[32m# s = s[1:] delete  first[m
+[32m+[m[32m# s[0]='' не робить[m
+[32m+[m[32mprint(s)[m
+[32m+[m
+[32m+[m[32m#print(s[0])[m
+[32m+[m[32mprint('"')[m
+\ No newline at end of file[m
+[1mdiff --git a/main.py b/main.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..84c9af2[m
+[1m--- /dev/null[m
+[1m+++ b/main.py[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m
+[32m+[m[32m# inputting array:[m
+[32m+[m[32ma = [][m
+[32m+[m[32mn = 1[m
+[32m+[m
+[32m+[m[32mfor i in range(0,n):[m
+[32m+[m[32m    print('Input',i+1,'number:')[m
+[32m+[m[32m    a.append(int(input()))[m
+[32m+[m[32m# finish inputting array[m
+[32m+[m
+[32m+[m[32m# counting every number:[m
+[32m+[m[32m'''[m
+[32m+[m[32mb = [][m
+[32m+[m[32mfor i in range(0,n):[m
+[32m+[m[32m    b.append(1)[m
+[32m+[m[32m    for j in range(i+1,n):[m
+[32m+[m[32m        print('j=',j)[m
+[32m+[m[32m        if a[j]==a[i] :[m
+[32m+[m[32m            b[i] += 1[m
+[32m+[m
+[32m+[m[32m# looking for MAX[m
+[32m+[m[32mmaxGLOBAL = b[0][m
+[32m+[m[32mnumGLOBAL = a[0][m
+[32m+[m[32mfor i in range(1,n):[m
+[32m+[m[32m    if b[i]>maxGLOBAL:[m
+[32m+[m[32m        maxGLOBAL = b[i][m
+[32m+[m[32m        numGLOBAL = a[i][m
+[32m+[m[32mprint('Max numb=',numGLOBAL,' it occurs ',maxGLOBAL,' times')[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mmax = a[0][m
+[32m+[m
+[32m+[m[32mfor i in range(1,n):[m
+[32m+[m[32m    if a[i]>max:[m
+[32m+[m[32m        max=a[i][m
+[32m+[m
+[32m+[m[32mprint(a)[m
+[32m+[m[32mprint('САМОЕ БОЛЬШОЕ ЧИСЛО=', max)[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_01.py b/ps_02_01.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..f4da613[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_01.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mimport math[m
+[32m+[m[32mprint(2*4*math.pi)[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_02.py b/ps_02_02.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97e0105[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_02.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mprint(len("My name is Python"))[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_03_average.py b/ps_02_03_average.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d8142f6[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_03_average.py[m
+[36m@@ -0,0 +1,8 @@[m
+[32m+[m[32mdef average(numbers):[m
+[32m+[m[32m    # повертає середнє арифметичне елементів списку[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    for i in numbers:[m
+[32m+[m[32m        sum += i[m
+[32m+[m[32m    return sum/len(numbers)[m
+[32m+[m
+[32m+[m[32mprint(average([1, 8, 5, 4, 12]))[m
+[1mdiff --git a/ps_02_04_dict_Films.py b/ps_02_04_dict_Films.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9e1427b[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_04_dict_Films.py[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32mdict_Films = {"Хрещений батько": 9.2,[m
+[32m+[m[32m              "Втеча з Шоушенка": 9.2,[m
+[32m+[m[32m              "Кримінальне чтиво": 8.8,[m
+[32m+[m[32m              "Форест Гамп": 8.8,[m
+[32m+[m[32m              "Славні хлопці": 8.7,[m
+[32m+[m[32m              "Пролітаючи над гніздом зозулі": 8.6}[m
+[1mdiff --git a/ps_02_05_print_List.py b/ps_02_05_print_List.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ff15906[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_05_print_List.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mspysok = [1, 2, 3][m
+[32m+[m[32mprint(spysok[0])[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_06_upper_letters.py b/ps_02_06_upper_letters.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5504e10[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_06_upper_letters.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mriadok = 'python IS a very large tree'[m
+[32m+[m[32mprint(riadok.upper())[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_07_Kb_to_Bits.py b/ps_02_07_Kb_to_Bits.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..206b5f7[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_07_Kb_to_Bits.py[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mprint("В одному кілобайті: "+str(8*1024)+" біт")[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_02_08_replace_spaces.py b/ps_02_08_replace_spaces.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9647a71[m
+[1m--- /dev/null[m
+[1m+++ b/ps_02_08_replace_spaces.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32ms = 'P Y T H O N'[m
+[32m+[m[32mprint(s.replace(' ', ''))[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_03_01_Fibona4i.py b/ps_03_01_Fibona4i.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..51d9d94[m
+[1m--- /dev/null[m
+[1m+++ b/ps_03_01_Fibona4i.py[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_01 = 3rd Homework, task #1, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mЗа допомогою нескінченного циклу згенеруйте ряд чисел Фібоначчі.[m
+[32m+[m[32mРяд починається з чисел 1, 1, 2, 3, 5, 8, 13, а кожен наступний елемент -[m
+[32m+[m[32mце сума двох попередніх[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlast = 1[m
+[32m+[m[32mprevious = 1[m
+[32m+[m[32mprint(last)[m
+[32m+[m[32mprint(previous)[m
+[32m+[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    last, previous = previous + last, last[m
+[32m+[m[32m    print(last)[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_03_02_divisible_3.py b/ps_03_02_divisible_3.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9a3d763[m
+[1m--- /dev/null[m
+[1m+++ b/ps_03_02_divisible_3.py[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_03 = 3rd Homework, task #2, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mСтворіть список, що містить числа від 0 до 100 та за допомогою List Comprehension[m
+[32m+[m[32mотримайте з нього список чисел, що кратні 3.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlist_of_numbers = [][m
+[32m+[m
+[32m+[m[32mfor i in range(101):[m
+[32m+[m[32m    # створення списку[m
+[32m+[m[32m    list_of_numbers.append(i)[m
+[32m+[m[32m# print(list_of_numbers) # - перевірка коректності створення списку[m
+[32m+[m
+[32m+[m[32mlist_divisible_3 = [i for i in list_of_numbers if i % 3 == 0][m
+[32m+[m
+[32m+[m[32mprint(list_divisible_3)[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_03_03_sum_of_numbers.py b/ps_03_03_sum_of_numbers.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2492fb2[m
+[1m--- /dev/null[m
+[1m+++ b/ps_03_03_sum_of_numbers.py[m
+[36m@@ -0,0 +1,14 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_03 = 3rd Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть цикл for, який просить ввести ціле число 10 разів, а потім роздруковує[m
+[32m+[m[32mу консолі суму всіх введених чисел[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlist_of_numbers = [][m
+[32m+[m[32msum = 0[m
+[32m+[m[32mfor i in range(10):[m
+[32m+[m[32m    list_of_numbers.append(int(input("Введіть " + str(i+1) + " число : ")))[m
+[32m+[m[32m    sum += list_of_numbers[i][m
+[32m+[m[32m# print(list_of_numbers) # перевірка[m
+[32m+[m[32mprint('Sum is ' + str(sum))[m
+[1mdiff --git a/ps_03_04_input_numb_while_positive.py b/ps_03_04_input_numb_while_positive.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a4b57d5[m
+[1m--- /dev/null[m
+[1m+++ b/ps_03_04_input_numb_while_positive.py[m
+[36m@@ -0,0 +1,12 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_04 = 3rd Homework, task #4, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть нескінченний цикл, який просить ввести ціле число і[m
+[32m+[m[32mпереривається, якщо введене число менше 0.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    a = int(input('Введіть число: '))[m
+[32m+[m[32m    if a < 0:[m
+[32m+[m[32m        print('Ай яй яй')[m
+[32m+[m[32m        break[m
+[1mdiff --git a/ps_03_05_swap_elements.py b/ps_03_05_swap_elements.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..86adec9[m
+[1m--- /dev/null[m
+[1m+++ b/ps_03_05_swap_elements.py[m
+[36m@@ -0,0 +1,10 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_05 = 3rd Homework, task #5, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть код який просить ввести дві будь-які змінні, а потім міняє їх місцями.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32ma = input("Введіть 1 змінну (a) : ")[m
+[32m+[m[32mb = input("Введіть 2 змінну (b) : ")[m
+[32m+[m[32ma, b = b, a[m
+[32m+[m[32mprint("a = "+str(a)+"\nb =",b) #[m
+[1mdiff --git a/ps_04_01_season_detect.py b/ps_04_01_season_detect.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ed3615e[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_01_season_detect.py[m
+[36m@@ -0,0 +1,40 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_01 = 4th Homework, task #1, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає номер місяця та повертає рядок з назвою пори року, до якої[m
+[32m+[m[32mцей місяць відноситься[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mseasons = {[m
+[32m+[m[32m    # Словник пір року[m
+[32m+[m[32m    1 : "Winter",[m
+[32m+[m[32m    2 : "Winter",[m
+[32m+[m[32m    3 : "Spring",[m
+[32m+[m[32m    4 : "Spring",[m
+[32m+[m[32m    5 : "Spring",[m
+[32m+[m[32m    6 : "Summer",[m
+[32m+[m[32m    7 : "Summer",[m
+[32m+[m[32m    8 : "Summer",[m
+[32m+[m[32m    9 : "Autumn",[m
+[32m+[m[32m    10: "Autumn",[m
+[32m+[m[32m    11: "Autumn",[m
+[32m+[m[32m    12: "Winter"[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdef season_detect(month_number):[m
+[32m+[m[32m    '''[m
+[32m+[m[32m    Отримує номер місяця: якщо на вході числа 1-12 повертає назву місяця,[m
+[32m+[m[32m    Якщо ввели ***ню повертає теж саме)[m
+[32m+[m[32m    '''[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        month_number = int(month_number)[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        return "Некоректний ввод"[m
+[32m+[m
+[32m+[m[32m    if month_number in seasons.keys():[m
+[32m+[m[32m        for key, value in seasons.items():[m
+[32m+[m[32m            if key == month_number:[m
+[32m+[m[32m                return value[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return "No such month"[m
+[32m+[m[32mprint(season_detect(input("Введіть номер місяця: ")))[m
+[1mdiff --git a/ps_04_02_combine_dics.py b/ps_04_02_combine_dics.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..221138b[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_02_combine_dics.py[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_02 = 4th Homework, task #2, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає довільну кількість словників, збирає їх[m
+[32m+[m[32mв один словник та повертає його[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef combine_dics(*dics):[m
+[32m+[m[32m    result_dic = {}[m
+[32m+[m[32m    for i in dics:[m
+[32m+[m[32m        result_dic.update(i)[m
+[32m+[m[32m    return result_dic[m
+[32m+[m
+[32m+[m[32m# для прикладу (про повтори ключів нічого не сказано)[m
+[32m+[m[32mprint(combine_dics({1: '22', 'a': "44"},{'b': 10, 1: '223'}))[m
+[1mdiff --git a/ps_04_03_is_polindrom.py b/ps_04_03_is_polindrom.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a74bb9c[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_03_is_polindrom.py[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_03 = 4th Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка перевіряє, чи є слово паліндромом та повертає[m
+[32m+[m[32mвідповідно True чи False. Паліндром - це слово, яке однаково читається[m
+[32m+[m[32mзліва направо та справа наліво. Наприклад, "випив"[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef is_polindrom(word):[m
+[32m+[m[32m    while len(word) >= 3:[m
+[32m+[m[32m        if word[0] == word[-1]:[m
+[32m+[m[32m            word = word[1:] # видаляєм перший символ[m
+[32m+[m[32m            word = word[:-1] # видаляєм останній символ[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32m    if word[0] == word[-1]:[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return False[m
+[32m+[m
+[32m+[m[32mprint(is_polindrom('aabbaaa')) # для перевірки[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_04_03_recursion_pro.py b/ps_04_03_recursion_pro.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..02d8876[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_03_recursion_pro.py[m
+[36m@@ -0,0 +1,9 @@[m
+[32m+[m[32mdef is_polindrom(word):[m
+[32m+[m[32m    if (len(word) == 1) or (len(word) == 0):[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    while len(word) > 1:[m
+[32m+[m[32m        if word[0] == word[-1]:[m
+[32m+[m[32m            return is_polindrom(word[1:-1])[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32mprint(is_polindrom('b'))[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_04_03_resursion.py b/ps_04_03_resursion.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5982eae[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_03_resursion.py[m
+[36m@@ -0,0 +1,30 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_03 = 4th Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка перевіряє, чи є слово паліндромом та повертає[m
+[32m+[m[32mвідповідно True чи False. Паліндром - це слово, яке однаково читається[m
+[32m+[m[32mзліва направо та справа наліво. Наприклад, "випив"[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef is_polindrom(word):[m
+[32m+[m[32m    print(len(word))[m
+[32m+[m[32m    if len(word) <= 1:[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    elif len(word) == 2:[m
+[32m+[m[32m        print(word)[m
+[32m+[m[32m        if word[0] == word[1]:[m
+[32m+[m[32m            print('dadada')[m
+[32m+[m[32m            return True[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        print('hi', word)[m
+[32m+[m[32m        while len(word) >= 3:[m
+[32m+[m[32m            if word[0] == word[-1]:[m
+[32m+[m[32m                word = word[1:] # видаляєм перший символ[m
+[32m+[m[32m                word = word[:-1] # видаляєм останній символ[m
+[32m+[m[32m                is_polindrom(word)[m
+[32m+[m[32m            else:[m
+[32m+[m[32m                return False[m
+[32m+[m
+[32m+[m[32mprint(is_polindrom('aaddaa'))[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_04_04_digits_sum.py b/ps_04_04_digits_sum.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d76866f[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_04_digits_sum.py[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_04 = 4th Homework, task #4, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає ціле число та повертає суму всіх його цифр.[m
+[32m+[m[32mНаприклад, 437. 4+3+7=14[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef sum_numbers(number):[m
+[32m+[m[32m    str_number = str(number)[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    while len(str_number) > 0:[m
+[32m+[m[32m        sum += int(str_number[0])[m
+[32m+[m[32m        str_number = str_number[1:][m
+[32m+[m[32m    return sum[m
+[32m+[m[32mprint(sum_numbers(1))[m
+[1mdiff --git a/ps_04_05_most_occur_letter.py b/ps_04_05_most_occur_letter.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7f84d25[m
+[1m--- /dev/null[m
+[1m+++ b/ps_04_05_most_occur_letter.py[m
+[36m@@ -0,0 +1,25 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_05 = 4th Homework, task #5, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає рядок та повертає літеру, яка зустрічається в[m
+[32m+[m[32mньому найчастіше[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef max_letter(str):[m
+[32m+[m[32m    max_count = 1[m
+[32m+[m[32m    max_index = 0[m
+[32m+[m[32m    list_of_sum = [][m
+[32m+[m[32m    list_of_letters = list(str)[m
+[32m+[m[32m    for i in range(len(list_of_letters)):[m
+[32m+[m[32m        list_of_sum.append(1)[m
+[32m+[m[32m        for j in range(i+1, len(list_of_letters)):[m
+[32m+[m[32m            if list_of_letters[j] == list_of_letters[i]:[m
+[32m+[m[32m                list_of_sum[i] += 1[m
+[32m+[m[32m                # print(max_count)[m
+[32m+[m[32m                if list_of_sum[i] > max_count:[m
+[32m+[m[32m                    max_count = list_of_sum[i][m
+[32m+[m[32m                    max_index = i[m
+[32m+[m[32m    return list_of_letters[max_index][m
+[32m+[m
+[32m+[m[32mprint(max_letter('abcaaccccaaaaccc'))[m
+[1mdiff --git a/ps_05_01_file_creation.py b/ps_05_01_file_creation.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..55b63d3[m
+[1m--- /dev/null[m
+[1m+++ b/ps_05_01_file_creation.py[m
+[36m@@ -0,0 +1,47 @@[m
+[32m+[m
+[32m+[m[32m# file = open (r'D:\_DATA SCIENCE\CourseProjects\111.txt', encoding='utf-8')[m
+[32m+[m[32m# file = open ('111.txt', 'a+', encoding='utf-8')[m
+[32m+[m[32m# file.seek(0)[m
+[32m+[m[32m# print(file.read(5))[m
+[32m+[m[32m#[m
+[32m+[m[32mseasons = {[m
+[32m+[m[32m    # Словник пір року[m
+[32m+[m[32m    1 : "Winter",[m
+[32m+[m[32m    2 : "Winter",[m
+[32m+[m[32m    3 : "Spring",[m
+[32m+[m[32m    4 : "Spring",[m
+[32m+[m[32m    5 : "Spring",[m
+[32m+[m[32m    6 : "Summer",[m
+[32m+[m[32m    7 : "Summer",[m
+[32m+[m[32m    8 : "Summer",[m
+[32m+[m[32m    9 : "Autumn",[m
+[32m+[m[32m    10.1: "Autumn",[m
+[32m+[m[32m    11: "Autumn",[m
+[32m+[m[32m    'a': "Winter",[m
+[32m+[m[32m    22 : 55,[m
+[32m+[m[32m    (1,2) : 555,[m
+[32m+[m[32m    '22' : "100"[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdef file_filling (name, dic={}):[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        file = open(name, 'w')[m
+[32m+[m[32m        # file.write('hello')[m
+[32m+[m[32m        # ми будемо перевіряти, чи є тип ключа стрінгом, а також чи є тип значення[m
+[32m+[m[32m        # словника стрінгом[m
+[32m+[m[32m        for key, value in dic.items():[m
+[32m+[m[32m            if type(key) == str and type(value) != str:[m
+[32m+[m[32m                file.write('"'+str(key)+'":'+str(dic[key])+'\n')[m
+[32m+[m[32m            elif type(key) == str and type(value) == str:[m
+[32m+[m[32m                file.write('"'+str(key) + '":"' + str(dic[key]) + '"\n')[m
+[32m+[m[32m            elif type(value) == str:[m
+[32m+[m[32m                file.write(str(key) + ':"' + str(dic[key]) + '"\n')[m
+[32m+[m[32m            else:[m
+[32m+[m[32m                file.write(str(key) + ':' + str(dic[key]) + '\n')[m
+[32m+[m[32m        file.close()[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        print("Smth went wrong, try again later")[m
+[32m+[m[32m        pass[m
+[32m+[m
+[32m+[m[32mfile_filling('224.txt', seasons)[m
+[32m+[m
+[1mdiff --git a/ps_05_01_json.py b/ps_05_01_json.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..087ff4b[m
+[1m--- /dev/null[m
+[1m+++ b/ps_05_01_json.py[m
+[36m@@ -0,0 +1,38 @@[m
+[32m+[m[32mimport json[m
+[32m+[m[32mseasons = {[m
+[32m+[m[32m    # Словник пір року[m
+[32m+[m[32m    1 : "Winter",[m
+[32m+[m[32m    2 : "Winter",[m
+[32m+[m[32m    3 : "Spring",[m
+[32m+[m[32m    4 : "Spring",[m
+[32m+[m[32m    5 : "Spring",[m
+[32m+[m[32m    6 : "Summer",[m
+[32m+[m[32m    7 : "Summer",[m
+[32m+[m[32m    8 : "Summer",[m
+[32m+[m[32m    9 : "Autumn",[m
+[32m+[m[32m    10: "Autumn",[m
+[32m+[m[32m    11.1: "Autumn",[m
+[32m+[m[32m    'a': "Winter",[m
+[32m+[m[32m    22 : 55,[m
+[32m+[m[32m    #(1 ,2) : 555,[m
+[32m+[m[32m    '22' : 100[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdef file_filling (name, dict={}):[m
+[32m+[m[32m    with open (name, 'w') as file:[m
+[32m+[m[32m        # for key in dict:[m
+[32m+[m[32m        json.dump(dict, file, indent=4)[m
+[32m+[m
+[32m+[m[32mfile_filling('224.json', seasons)[m
+[32m+[m
+[32m+[m[32m    # file = open(name, 'w')[m
+[32m+[m[32m    # # file.write('hello')[m
+[32m+[m[32m    # for key in dic:[m
+[32m+[m[32m    #     file.write(str(key)+': '+str(dic[key])+'\n')[m
+[32m+[m[32m    # file.close()[m
+[32m+[m
+[32m+[m[32m# json.dumps(['foo', {'bar': ('baz', None, 1.0, 2)}])[m
+[32m+[m[32m# '["foo", {"bar": ["baz", null, 1.0, 2]}]'[m
+[32m+[m[32m#[m
+[32m+[m[32m# print(json.dumps({'4': 5, '3': 7, '8': 1}, sort_keys=True, indent=4))[m
+[32m+[m
+[1mdiff --git a/ps_05_02_file_to_dict.py b/ps_05_02_file_to_dict.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..806b583[m
+[1m--- /dev/null[m
+[1m+++ b/ps_05_02_file_to_dict.py[m
+[36m@@ -0,0 +1,45 @@[m
+[32m+[m[32mdef line_to_keyvalue(line):[m
+[32m+[m[32m    key = ''[m
+[32m+[m[32m    value = ''[m
+[32m+[m[32m    index = 0[m
+[32m+[m[32m    # tuple = (key, value)[m
+[32m+[m[32m    while line[index] != ':':[m
+[32m+[m[32m        # print(index)[m
+[32m+[m[32m        key += line[index][m
+[32m+[m[32m        index += 1[m
+[32m+[m[32m    index += 1[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        while line[index] != '\n':[m
+[32m+[m[32m            value += line[index][m
+[32m+[m[32m            index += 1[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        pass[m
+[32m+[m[32m    if key[0] == '(':[m
+[32m+[m[32m        key = key[1:-1][m
+[32m+[m[32m        key = tuple(map(int, key.split(',')))[m
+[32m+[m[32m    elif key[0] in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9') and '.' in key:[m
+[32m+[m[32m        key = float(key)[m
+[32m+[m[32m    elif key[0] in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9') and '.' not in key:[m
+[32m+[m[32m        key = int(key)[m
+[32m+[m
+[32m+[m[32m    if value[0] == '(':[m
+[32m+[m[32m        value = value[1:-1][m
+[32m+[m[32m        value = tuple(map(int, value.split(', ')))[m
+[32m+[m[32m    elif value[0] in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9') and '.' in value:[m
+[32m+[m[32m        value = float(value)[m
+[32m+[m[32m    elif value[0] in ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9') and '.' not in value:[m
+[32m+[m[32m        value = int(value)[m
+[32m+[m[32m    return key, value[m
+[32m+[m[32mdef dict_create(file_name):[m
+[32m+[m[32m    file = open(file_name, 'r')[m
+[32m+[m[32m    list_of_lines = file.readlines()[m
+[32m+[m[32m    dict_result = {}[m
+[32m+[m
+[32m+[m[32m    for line in list_of_lines:[m
+[32m+[m[32m        dict_result.update({line_to_keyvalue(line)})[m
+[32m+[m[32m    file.close()[m
+[32m+[m[32m    return dict_result[m
+[32m+[m
+[32m+[m[32mprint(dict_create('224.txt'))[m
+[32m+[m
+[32m+[m[32m#print(line_to_keyvalue('"1":'))[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_05_03_flies_and_dirs.py b/ps_05_03_flies_and_dirs.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5f0250f[m
+[1m--- /dev/null[m
+[1m+++ b/ps_05_03_flies_and_dirs.py[m
+[36m@@ -0,0 +1,18 @@[m
+[32m+[m
+[32m+[m[32mimport os[m
+[32m+[m
+[32m+[m[32mdef print_files_and_dirs():[m
+[32m+[m[32m    print('Files and directories amount: ', len(os.listdir()))[m
+[32m+[m[32m    files = 0[m
+[32m+[m[32m    dirs = 0[m
+[32m+[m[32m    for addr in os.listdir():[m
+[32m+[m[32m        if os.path.isdir(addr):[m
+[32m+[m[32m            dirs += 1[m
+[32m+[m[32m            print('| ',addr)[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            print(addr)[m
+[32m+[m[32m            files += 1[m
+[32m+[m
+[32m+[m[32m    print('Files amonut: ',files,'\nDirectories amount: ',dirs)[m
+[32m+[m
+[32m+[m[32mprint_files_and_dirs()[m
+\ No newline at end of file[m
+[1mdiff --git a/ps_06_01.py b/ps_06_01.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0dffa09[m
+[1m--- /dev/null[m
+[1m+++ b/ps_06_01.py[m
+[36m@@ -0,0 +1,45 @@[m
+[32m+[m[32m'''[m
+[32m+[m[32mІдея:[m
+[32m+[m[32m1. генеруємо число 1..100[m
+[32m+[m[32m2. надаємо користувачу ввести число та перевіряєм коректність вводу[m
+[32m+[m[32m3. якщо користувач вгадав - поздоровляєм, якщо ні - виводим "менше"/"більше"[m
+[32m+[m[32m    та переходимо до п.2, при умові що поточна кількість використаних спроб[m
+[32m+[m[32m    менше 6.[m
+[32m+[m[32m    А якщо це була 6а спроба і він не вгадав - виводимо "ви програли"[m
+[32m+[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mfrom random import randint[m
+[32m+[m
+[32m+[m[32mn = randint(1, 100)[m
+[32m+[m[32m# print(randint(1, 100))[m
+[32m+[m
+[32m+[m[32mprint("\033[38;2;201;100;59m Wellcome to the game \033[0;0m  \n "[m
+[32m+[m[32m      "you have to guess the number from \033[38;2;204;204;0m 1 to 100\033[0;0m\n"[m
+[32m+[m[32m      "you have \033[38;2;201;100;59m 6 attempts \033[0;0m\n"[m
+[32m+[m[32m      "good luck")[m
+[32m+[m
+[32m+[m[32m#print(n) #ця строка знадобиться для тесту[m
+[32m+[m
+[32m+[m[32mattempt_counter = 1[m
+[32m+[m[32mwhile attempt_counter <= 6:[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        a = int(input("lets do "+str(attempt_counter)+" try: "))[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        print("\nWrong input, you lost!!!")[m
+[32m+[m[32m        break[m
+[32m+[m[32m    if a == n:[m
+[32m+[m[32m        print("\n\033[38;2;124;252;0m YOU WIN!!! \033[0;0m")[m
+[32m+[m[32m        print("\nYou took ", attempt_counter, " attempts")[m
+[32m+[m[32m        break[m
+[32m+[m[32m    elif attempt_counter == 6:[m
+[32m+[m[32m        print("\n\033[38;2;255;160;122m YOU LOST!!! \033[0;0m")[m
+[32m+[m[32m        break[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        if a > n:[m
+[32m+[m[32m            print("You entered Bigger number")[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            print("You entered Smaller number")[m
+[32m+[m[32m        attempt_counter += 1[m
+[32m+[m
+[32m+[m
+[1mdiff --git a/ps_06_02.py b/ps_06_02.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4b1dd66[m
+[1m--- /dev/null[m
+[1m+++ b/ps_06_02.py[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32mimport sys[m
+[32m+[m[32mfrom math import sqrt[m
+[32m+[m
+[32m+[m[32mdef reducer(n):[m
+[32m+[m[32m    while n > 0:[m
+[32m+[m[32m        n = n - 1[m
+[32m+[m[32m        print(n)[m
+[32m+[m[32m        return reducer(n)[m
+[32m+[m
+[32m+[m[32mtry:[m
+[32m+[m[32m    n = int(input("Input natural number: "))[m
+[32m+[m[32m    sqrt(n-1) #геніальне рішення перевірки на те що n >= 1[m
+[32m+[m[32m    #щоб запихнути в один try без додаткових перевірок[m
+[32m+[m[32mexcept:[m
+[32m+[m[32m    print("\n\033[38;2;255;160;122m WRONG INPUT!!! \033[0;0m")[m
+[32m+[m[32m    sys.exit()[m
+[32m+[m
+[32m+[m[32m# print('dsdf')[m
+[32m+[m
+[32m+[m[32mreducer(n)[m
+\ No newline at end of file[m
+[1mdiff --git a/res.txt b/res.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..012afdb[m
+[1m--- /dev/null[m
+[1m+++ b/res.txt[m
+[36m@@ -0,0 +1,380 @@[m
+[32m+[m[32masd[m
+[32m+[m[32m12[m
+[32m+[m[32m[1, 2, 4][m
+[32m+[m[32mдадада5[m
+[32m+[m[32m6[m
+[32m+[m[32mfg[m
+[32m+[m[32m1: Winter[m
+[32m+[m[32m2: Winter[m
+[32m+[m[32m3: Spring[m
+[32m+[m[32m4: Spring[m
+[32m+[m[32m5: Spring[m
+[32m+[m[32m6: Summer[m
+[32m+[m[32m7: Summer[m
+[32m+[m[32m8: Summer[m
+[32m+[m[32m9: Autumn[m
+[32m+[m[32m10: Autumn[m
+[32m+[m[32m11: Autumn[m
+[32m+[m[32ma: Winter[m
+[32m+[m[32m22: 55[m
+[32m+[m[32m(1, 2): 555[m
+[32m+[m[32m22: 100[m
+[32m+[m[32mprint('Svaliavchyk Petro')def my_f(**kwargs):[m
+[32m+[m[32m    for k, v in kwargs.items():[m
+[32m+[m[32m        print(k, v)[m
+[32m+[m[32m# my_f(a=1, b=2, c=3)[m
+[32m+[m
+[32m+[m[32ms = 'abc'[m
+[32m+[m[32m# s = s[:-1] delete last[m
+[32m+[m[32m# s = s[1:] delete  first[m
+[32m+[m[32m# s[0]='' не робить[m
+[32m+[m[32mprint(s)[m
+[32m+[m
+[32m+[m[32m#print(s[0])import math[m
+[32m+[m[32mprint(2*4*math.pi)print(len("My name is Python"))def average(numbers):[m
+[32m+[m[32m    # повертає середнє арифметичне елементів списку[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    for i in numbers:[m
+[32m+[m[32m        sum += i[m
+[32m+[m[32m    return sum/len(numbers)[m
+[32m+[m
+[32m+[m[32mprint(average([1, 8, 5, 4, 12]))[m
+[32m+[m[32mdict_Films = {"Хрещений батько": 9.2,[m
+[32m+[m[32m              "Втеча з Шоушенка": 9.2,[m
+[32m+[m[32m              "Кримінальне чтиво": 8.8,[m
+[32m+[m[32m              "Форест Гамп": 8.8,[m
+[32m+[m[32m              "Славні хлопці": 8.7,[m
+[32m+[m[32m              "Пролітаючи над гніздом зозулі": 8.6}[m
+[32m+[m[32mspysok = [1, 2, 3][m
+[32m+[m[32mprint(spysok[0])riadok = 'python IS a very large tree'[m
+[32m+[m[32mprint(riadok.upper())print("В одному кілобайті: "+str(8*1024)+" біт")s = 'P Y T H O N'[m
+[32m+[m[32mprint(s.replace(' ', ''))'''[m
+[32m+[m[32mps_03_01 = 3rd Homework, task #1, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mЗа допомогою нескінченного циклу згенеруйте ряд чисел Фібоначчі.[m
+[32m+[m[32mРяд починається з чисел 1, 1, 2, 3, 5, 8, 13, а кожен наступний елемент -[m
+[32m+[m[32mце сума двох попередніх[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlast = 1[m
+[32m+[m[32mprevious = 1[m
+[32m+[m[32mprint(last)[m
+[32m+[m[32mprint(previous)[m
+[32m+[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    last, previous = previous + last, last[m
+[32m+[m[32m    print(last)'''[m
+[32m+[m[32mps_03_03 = 3rd Homework, task #2, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mСтворіть список, що містить числа від 0 до 100 та за допомогою List Comprehension[m
+[32m+[m[32mотримайте з нього список чисел, що кратні 3.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlist_of_numbers = [][m
+[32m+[m
+[32m+[m[32mfor i in range(101):[m
+[32m+[m[32m    # створення списку[m
+[32m+[m[32m    list_of_numbers.append(i)[m
+[32m+[m[32m# print(list_of_numbers) # - перевірка коректності створення списку[m
+[32m+[m
+[32m+[m[32mlist_divisible_3 = [i for i in list_of_numbers if i % 3 == 0][m
+[32m+[m
+[32m+[m[32mprint(list_divisible_3)'''[m
+[32m+[m[32mps_03_03 = 3rd Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть цикл for, який просить ввести ціле число 10 разів, а потім роздруковує[m
+[32m+[m[32mу консолі суму всіх введених чисел[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mlist_of_numbers = [][m
+[32m+[m[32msum = 0[m
+[32m+[m[32mfor i in range(10):[m
+[32m+[m[32m    list_of_numbers.append(int(input("Введіть " + str(i+1) + " число : ")))[m
+[32m+[m[32m    sum += list_of_numbers[i][m
+[32m+[m[32m# print(list_of_numbers) # перевірка[m
+[32m+[m[32mprint('Sum is ' + str(sum))[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_04 = 3rd Homework, task #4, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть нескінченний цикл, який просить ввести ціле число і[m
+[32m+[m[32mпереривається, якщо введене число менше 0.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    a = int(input('Введіть число: '))[m
+[32m+[m[32m    if a < 0:[m
+[32m+[m[32m        print('Ай яй яй')[m
+[32m+[m[32m        break[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_03_05 = 3rd Homework, task #5, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть код який просить ввести дві будь-які змінні, а потім міняє їх місцями.[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32ma = input("Введіть 1 змінну (a) : ")[m
+[32m+[m[32mb = input("Введіть 2 змінну (b) : ")[m
+[32m+[m[32ma, b = b, a[m
+[32m+[m[32mprint("a = "+str(a)+"\nb =",b) #[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_01 = 4th Homework, task #1, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає номер місяця та повертає рядок з назвою пори року, до якої[m
+[32m+[m[32mцей місяць відноситься[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mseasons = {[m
+[32m+[m[32m    # Словник пір року[m
+[32m+[m[32m    1 : "Winter",[m
+[32m+[m[32m    2 : "Winter",[m
+[32m+[m[32m    3 : "Spring",[m
+[32m+[m[32m    4 : "Spring",[m
+[32m+[m[32m    5 : "Spring",[m
+[32m+[m[32m    6 : "Summer",[m
+[32m+[m[32m    7 : "Summer",[m
+[32m+[m[32m    8 : "Summer",[m
+[32m+[m[32m    9 : "Autumn",[m
+[32m+[m[32m    10: "Autumn",[m
+[32m+[m[32m    11: "Autumn",[m
+[32m+[m[32m    12: "Winter"[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdef season_detect(month_number):[m
+[32m+[m[32m    '''[m
+[32m+[m[32m    Отримує номер місяця: якщо на вході числа 1-12 повертає назву місяця,[m
+[32m+[m[32m    Якщо ввели ***ню повертає теж саме)[m
+[32m+[m[32m    '''[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        month_number = int(month_number)[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        return "Некоректний ввод"[m
+[32m+[m
+[32m+[m[32m    if month_number in seasons.keys():[m
+[32m+[m[32m        for key, value in seasons.items():[m
+[32m+[m[32m            if key == month_number:[m
+[32m+[m[32m                return value[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return "No such month"[m
+[32m+[m[32mprint(season_detect(input("Введіть номер місяця: ")))[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_02 = 4th Homework, task #2, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає довільну кількість словників, збирає їх[m
+[32m+[m[32mв один словник та повертає його[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef combine_dics(*dics):[m
+[32m+[m[32m    result_dic = {}[m
+[32m+[m[32m    for i in dics:[m
+[32m+[m[32m        result_dic.update(i)[m
+[32m+[m[32m    return result_dic[m
+[32m+[m
+[32m+[m[32m# для прикладу (про повтори ключів нічого не сказано)[m
+[32m+[m[32mprint(combine_dics({1: '22', 'a': "44"},{'b': 10, 1: '223'}))[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_03 = 4th Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка перевіряє, чи є слово паліндромом та повертає[m
+[32m+[m[32mвідповідно True чи False. Паліндром - це слово, яке однаково читається[m
+[32m+[m[32mзліва направо та справа наліво. Наприклад, "випив"[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef is_polindrom(word):[m
+[32m+[m[32m    while len(word) >= 3:[m
+[32m+[m[32m        if word[0] == word[-1]:[m
+[32m+[m[32m            word = word[1:] # видаляєм перший символ[m
+[32m+[m[32m            word = word[:-1] # видаляєм останній символ[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32m    if word[0] == word[-1]:[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return False[m
+[32m+[m
+[32m+[m[32mprint(is_polindrom('aabbaaa')) # для перевіркиdef is_polindrom(word):[m
+[32m+[m[32m    if (len(word) == 1) or (len(word) == 0):[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    while len(word) > 1:[m
+[32m+[m[32m        if word[0] == word[-1]:[m
+[32m+[m[32m            return is_polindrom(word[1:-1])[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32mprint(is_polindrom('b'))'''[m
+[32m+[m[32mps_04_03 = 4th Homework, task #3, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка перевіряє, чи є слово паліндромом та повертає[m
+[32m+[m[32mвідповідно True чи False. Паліндром - це слово, яке однаково читається[m
+[32m+[m[32mзліва направо та справа наліво. Наприклад, "випив"[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef is_polindrom(word):[m
+[32m+[m[32m    print(len(word))[m
+[32m+[m[32m    if len(word) <= 1:[m
+[32m+[m[32m        return True[m
+[32m+[m[32m    elif len(word) == 2:[m
+[32m+[m[32m        print(word)[m
+[32m+[m[32m        if word[0] == word[1]:[m
+[32m+[m[32m            print('dadada')[m
+[32m+[m[32m            return True[m
+[32m+[m[32m        else:[m
+[32m+[m[32m            return False[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        print('hi', word)[m
+[32m+[m[32m        while len(word) >= 3:[m
+[32m+[m[32m            if word[0] == word[-1]:[m
+[32m+[m[32m                word = word[1:] # видаляєм перший символ[m
+[32m+[m[32m                word = word[:-1] # видаляєм останній символ[m
+[32m+[m[32m                is_polindrom(word)[m
+[32m+[m[32m            else:[m
+[32m+[m[32m                return False[m
+[32m+[m
+[32m+[m[32mprint(is_polindrom('aaddaa'))'''[m
+[32m+[m[32mps_04_04 = 4th Homework, task #4, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає ціле число та повертає суму всіх його цифр.[m
+[32m+[m[32mНаприклад, 437. 4+3+7=14[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m[32mdef sum_numbers(number):[m
+[32m+[m[32m    str_number = str(number)[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    while len(str_number) > 0:[m
+[32m+[m[32m        sum += int(str_number[0])[m
+[32m+[m[32m        str_number = str_number[1:][m
+[32m+[m[32m    return sum[m
+[32m+[m[32mprint(sum_numbers(1))[m
+[32m+[m[32m'''[m
+[32m+[m[32mps_04_05 = 4th Homework, task #5, ps = Свалявчик П.[m
+[32m+[m
+[32m+[m[32mНапишіть функцію, яка приймає рядок та повертає літеру, яка зустрічається в[m
+[32m+[m[32mньому найчастіше[m
+[32m+[m[32m'''[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef max_letter(str):[m
+[32m+[m[32m    max_count = 1[m
+[32m+[m[32m    max_index = 0[m
+[32m+[m[32m    list_of_sum = [][m
+[32m+[m[32m    list_of_letters = list(str)[m
+[32m+[m[32m    for i in range(len(list_of_letters)):[m
+[32m+[m[32m        list_of_sum.append(1)[m
+[32m+[m[32m        for j in range(i+1, len(list_of_letters)):[m
+[32m+[m[32m            if list_of_letters[j] == list_of_letters[i]:[m
+[32m+[m[32m                list_of_sum[i] += 1[m
+[32m+[m[32m                # print(max_count)[m
+[32m+[m[32m                if list_of_sum[i] > max_count:[m
+[32m+[m[32m                    max_count = list_of_sum[i][m
+[32m+[m[32m                    max_index = i[m
+[32m+[m[32m    return list_of_letters[max_index][m
+[32m+[m
+[32m+[m[32mprint(max_letter('abcaaccccaaaaccc'))[m
+[32m+[m
+[32m+[m[32m# file = open (r'D:\_DATA SCIENCE\CourseProjects\111.txt', encoding='utf-8')[m
+[32m+[m[32m# file = open ('111.txt', 'a+', encoding='utf-8')[m
+[32m+[m[32m# file.seek(0)[m
+[32m+[m[32m# print(file.read(5))[m
+[32m+[m[32m#[m
+[32m+[m[32mseasons = {[m
+[32m+[m[32m    # Словник пір року[m
+[32m+[m[32m    1 : "Winter",[m
+[32m+[m[32m    2 : "Winter",[m
+[32m+[m[32m    3 : "Spring",[m
+[32m+[m[32m    4 : "Spring",[m
+[32m+[m[32m    5 : "Spring",[m
+[32m+[m[32m    6 : "Summer",[m
+[32m+[m[32m    7 : "Summer",[m
+[32m+[m[32m    8 : "Summer",[m
+[32m+[m[32m    9 : "Autumn",[m
+[32m+[m[32m    10: "Autumn",[m
+[32m+[m[32m    11: "Autumn",[m
+[32m+[m[32m    'a': "Winter",[m
+[32m+[m[32m    22 : 55,[m
+[32m+[m[32m    (1 ,2) : 555,[m
+[32m+[m[32m    '22' : 100[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mdef file_filling (name, dic={}):[m
+[32m+[m[32m    file = open(name, 'w')[m
+[32m+[m[32m    # file.write('hello')[m
+[32m+[m[32m    for key in dic:[m
+[32m+[m[32m        file.write(str(key)+': '+str(dic[key])+'\n')[m
+[32m+[m[32m    file.close()[m
+[32m+[m
+[32m+[m[32mfile_filling('223.txt', seasons)[m
+[32m+[m[32mimport os[m
+[32m+[m[32mdef dict_create(file_name):[m
+[32m+[m[32m    file = open(file_name, 'r')[m
+[32m+[m[32m    list_of_lines = file.readlines()[m
+[32m+[m[32m    dict_result = {}[m
+[32m+[m[32m    print('helo')[m
+[32m+[m[32m    def line_to_keyvalue(line):[m
+[32m+[m[32m        key = ''[m
+[32m+[m[32m        value = ''[m
+[32m+[m[32m        index = 0[m
+[32m+[m[32m        # tuple = (key, value)[m
+[32m+[m[32m        while line[index] != ' ':[m
+[32m+[m[32m            # print(index)[m
+[32m+[m[32m            key += line[index][m
+[32m+[m[32m            index += 1[m
+[32m+[m[32m        index += 1[m
+[32m+[m[32m        while line[index] != '\n':[m
+[32m+[m[32m            value += line[index][m
+[32m+[m[32m            index += 1[m
+[32m+[m[32m        # tuple = (key, value)[m
+[32m+[m[32m        return key, value[m
+[32m+[m
+[32m+[m[32m    for line in list_of_lines:[m
+[32m+[m[32m        dict_result.update({line_to_keyvalue(line)})[m
+[32m+[m
+[32m+[m[32m    file.close()[m
+[32m+[m[32m    return dict_result[m
+[32m+[m
+[32m+[m[32m#print(dict_create('223.txt'))[m
+[32m+[m
+[32m+[m[32mfile_res = open('res.txt','w')[m
+[32m+[m[32mfor file in os.listdir():[m
+[32m+[m[32m    if file != 'res.txt' and os.path.isfile(file):[m
+[32m+[m[32m        try:[m
+[32m+[m[32m            s = open(file)[m
+[32m+[m[32m            file_res.write(s.read())[m
+[32m+[m[32m            s.close()[m
+[32m+[m[32m        except:[m
+[32m+[m[32m            pass[m
+[32m+[m
+[32m+[m[32mfile_res.close()import first[m
+[32m+[m[32mprint('type = ' + str(type(first)) + '\nid = ' + str(id(first)))[m
+[32m+[m
+[32m+[m
+[32m+[m[32ma = 'a'[m
+[32m+[m[32mprint(str(a))[m
+[32m+[m
+[32m+[m[32mdict = {}[m
+[32m+[m
+[32m+[m[32mdict.update({1: 2})[m
+[32m+[m[32mprint(dict)def s(a, *vs, b=10):[m
+[32m+[m[32m   res = a + b[m
+[32m+[m[32m   print(vs)[m
+[32m+[m[32m   for v in vs:[m
+[32m+[m[32m       res += v[m
+[32m+[m[32m   return res[m
+[32m+[m[32m# print(s(0, 0, 31))[m
+[32m+[m
+[32m+[m[32mdef fibo(k):[m
+[32m+[m[32m    sum = 0[m
+[32m+[m[32m    if (k == 0) or (k == 1):[m
+[32m+[m[32m        return 1[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return fibo(k-1) + fibo(k-2)[m
+[32m+[m[32m# print(fibo(6))[m
+[32m+[m
+[32m+[m[32mn, k = map(int, input().split())[m
+[32m+[m
+[32m+[m[32mdef cnk(n, k):[m
+[32m+[m[32m    if k > n:[m
+[32m+[m[32m        return 0[m
+[32m+[m[32m    if k == 0:[m
+[32m+[m[32m        return 1[m
+[32m+[m[32m    else:[m
+[32m+[m[32m        return cnk(n-1, k) + cnk(n-1,k-1)[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprint(cnk(n, k))[m
+\ No newline at end of file[m
+[1mdiff --git a/second.py b/second.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..933f6ea[m
+[1m--- /dev/null[m
+[1m+++ b/second.py[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mimport first[m
+[32m+[m[32mprint('type = ' + str(type(first)) + '\nid = ' + str(id(first)))[m
+[1mdiff --git a/stepik _ tmp.py b/stepik _ tmp.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c8b1f67[m
+[1m--- /dev/null[m
+[1m+++ b/stepik _ tmp.py[m	
+[36m@@ -0,0 +1,23 @@[m
+[32m+[m[32m# def list_sum(lst):[m
+[32m+[m[32m#     result = ''[m
+[32m+[m[32m#     for element in lst:[m
+[32m+[m[32m#         result += element[m
+[32m+[m[32m#     return result[m
+[32m+[m[32m#[m
+[32m+[m[32m# def sum(a, b):[m
+[32m+[m[32m#     return a + b[m
+[32m+[m[32m#[m
+[32m+[m[32m# y = sum(14, 29)[m
+[32m+[m[32m# z = list_sum(['1', 'd', 'a'])[m
+[32m+[m[32m# print(y)[m
+[32m+[m[32m# print(z)[m
+[32m+[m
+[32m+[m[32mdef printab(a,b):[m
+[32m+[m[32m    print(a)[m
+[32m+[m[32m    print(b)[m
+[32m+[m[32m# printab(10,20)[m
+[32m+[m[32mlst=[10,20][m
+[32m+[m[32mprintab(*lst)[m
+[32m+[m
+[32m+[m[32margs = {'b' : 12, 'a' : 20}[m
+[32m+[m[32mprintab(**args)[m
+\ No newline at end of file[m
