@@ -13,3 +13,4 @@ import os
 # file_res.close()
 
 print(os.getcwd())
+print('hello')
