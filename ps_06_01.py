@@ -6,7 +6,6 @@
     та переходимо до п.2, при умові що поточна кількість використаних спроб
     менше 6.
     А якщо це була 6а спроба і він не вгадав - виводимо "ви програли"
-
 '''
 
 from random import randint
@@ -18,7 +17,6 @@ print("\033[38;2;201;100;59m Wellcome to the game \033[0;0m  \n "
       "you have to guess the number from \033[38;2;204;204;0m 1 to 100\033[0;0m\n"
       "you have \033[38;2;201;100;59m 6 attempts \033[0;0m\n"
       "good luck")
-
 #print(n) #ця строка знадобиться для тесту
 
 attempt_counter = 1
