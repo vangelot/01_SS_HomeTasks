@@ -26,14 +26,13 @@ class Datainterface:
         self._text_loader = TextLoader()
     def process_texts(self, list_of_string):
         for str in list_of_string:
-            # a = TextProcessor(str)
-            # print(a.get_clean_string())
             self._text_loader.set_clean_text(str)
             print(self._text_loader.clean_string)
-            #self.__text_loader.set_clean_text()
-
 
 list_of_strings = ['1!!,2', 'spri;;ng', 'wi!!!nter']
+
+c = Datainterface()
+c.process_texts(list_of_strings)
 
 # a = TextProcessor()
 # print(a.get_clean_string('asdf!!!fsd,,'))
@@ -42,5 +41,3 @@ list_of_strings = ['1!!,2', 'spri;;ng', 'wi!!!nter']
 # b.set_clean_text('a!!!a')
 # print(b.clean_string)
 
-c = Datainterface()
-c.process_texts(list_of_strings)
