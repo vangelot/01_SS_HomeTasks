@@ -8,11 +8,15 @@ class User:
             self.emails.append(email)
         else:
             raise Exception("this email already exists")
+        self.__email = email
         self.__age = age
         self.__user_type = user_type
         self.__data_access = data_access
         self.username = username
         self.__class__.counter_object += 1
+
+    def showi(self):
+        print(self.i)
     @property
     def email(self):
         return self.__email
