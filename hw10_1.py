@@ -19,15 +19,14 @@ def month_name(month_number):
         return dict_month[month]
     except ValueError:
         print('input mistake, inputted value is not integer')
-        # sys.exit()
+        return "ERROR !!!"
     except OutOfRangeError:
         print("OutOfRangeError")
-        # sys.exit()
+        return "ERROR !!!"
     except Exception:
         print("some else error")
-        # sys.exit()
+        return "ERROR !!!"
 
 
 a = input("Enter month number: ")
-if month_name(a):  # != None:
-    print(month_name(a))
+print(month_name(a))
