@@ -2,7 +2,6 @@
 
 class OutOfRangeError(Exception):
     """Number of month is not in range 1..12"""
-
     def __init__(self, number_of_month):
         print("number ", number_of_month, " is not in range 1-12")
 
