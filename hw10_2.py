@@ -1,16 +1,17 @@
 class WrongTypeError(Exception):
-    "We should not use Bool"
-def is_all_unique(list):
+    """We should not use Bool"""
 
+
+def is_all_unique(list_of_numbers):
     try:
-        for num in list:
+        for num in list_of_numbers:
             int(num)
             if type(num) == bool:
                 raise WrongTypeError
-        if len(list) == 0:
+        if len(list_of_numbers) == 0:
             raise Exception
-        set_from_list = set(list)
-        if len(set_from_list) == len(list):
+        set_from_list = set(list_of_numbers)
+        if len(set_from_list) == len(list_of_numbers):
             return "List is Unique"
         else:
             return "List is not Unique"
@@ -23,6 +24,7 @@ def is_all_unique(list):
     except Exception:
         print("List is empty")
         return "ERROR"
+
 
 print(is_all_unique([1, 2, 3]), '\n')
 

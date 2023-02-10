@@ -1,12 +1,15 @@
-import sys
+
+
 class OutOfRangeError(Exception):
-    "Number of month is not in range 1..12"
+    """Number of month is not in range 1..12"""
+
     def __init__(self, number_of_month):
         print("number ", number_of_month, " is not in range 1-12")
 
+
 def month_name(month_number):
     # month = 0
-    dict_month = {1: "January", 2: "Febrary", 3: "March", 4: "April",
+    dict_month = {1: "January", 2: "February", 3: "March", 4: "April",
                   5: "May", 6: "June", 7: "July", 8: "August",
                   9: "September", 10: "October", 11: "November", 12: "December"}
     try:
@@ -15,7 +18,7 @@ def month_name(month_number):
             raise OutOfRangeError(month)
         return dict_month[month]
     except ValueError:
-        print('input mistake, inputed value is not integer')
+        print('input mistake, inputted value is not integer')
         # sys.exit()
     except OutOfRangeError:
         print("OutOfRangeError")
@@ -24,6 +27,7 @@ def month_name(month_number):
         print("some else error")
         # sys.exit()
 
-a = input("Enter month nomber: ")
-if month_name(a): #!= None:
+
+a = input("Enter month number: ")
+if month_name(a):  # != None:
     print(month_name(a))
