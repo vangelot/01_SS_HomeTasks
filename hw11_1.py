@@ -1,22 +1,27 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 
 @app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
-
-@app.route('/hello')
+@app.route('/home')
 def hello():
-    return "Hello, World"
+    return render_template("index.html")
 
 
 @app.route('/about')
 def about():
-    return "About page\n" \
-           "author Petro S.\n" \
-           "vers 1.0"
+    return render_template("about.html")
 
-app.run()
+
+@app.route('/user/<string:name>/<int:id>')
+def user(name, id):
+    return "User page: " + name + " - " + str(id)
+
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+# a = input("input number: ")
+# print(a)
+

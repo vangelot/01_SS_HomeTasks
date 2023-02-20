@@ -10,4 +10,8 @@ def hello_world():
 def hello():
     return "Hello, World"
 
+a = input("")
+
 app.run()
+
+b = input()
