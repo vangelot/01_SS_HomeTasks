@@ -3,10 +3,10 @@ import time
 from random_words import RandomWords
 
 
-def sort_speed(_list, iteration_number=1):
+def sort_speed(_list, sort_func, iteration_number=1,):
     start = time.time()
     for i in range(iteration_number):
-        quick_sort(_list)
+        sort_func(_list)
     return (time.time()-start) / iteration_number
 
 
@@ -41,18 +41,24 @@ def list_filling(_type="int", quantity=1):
     return _list
 
 
-# creating lists
-int_list = list_filling("int", 5000)
-float_list = list_filling("float", 5000)
-str_list = list_filling("word", 5000)
+def home_task():
 
-# mistakes
-print(list_filling("xxx", 5000))
-print(list_filling("int", 0))
+    # creating lists
+    int_list = list_filling("int", 5000)
+    float_list = list_filling("float", 5000)
+    str_list = list_filling("word", 5000)
 
-# function output example
-new_list = list_filling("word", 10)
-print(new_list)
-print(quick_sort(new_list))
+    # mistakes
+    print(list_filling("xxx", 5000))
+    print(list_filling("int", 0))
 
-print("Average time is: ", sort_speed(str_list, 20), 'seconds')
+    # function output example
+    new_list = list_filling("word", 10)
+    print(new_list)
+    print(quick_sort(new_list))
+
+    print("Average time is: ", sort_speed(str_list, 20), 'seconds')
+
+
+# home_task()
+
