@@ -3,7 +3,7 @@ import time
 from random_words import RandomWords
 
 
-def sort_speed(_list, sort_func, iteration_number=1,):
+def sort_speed(_list, sort_func, iteration_number=1):
     start = time.time()
     for i in range(iteration_number):
         sort_func(_list)
@@ -57,8 +57,8 @@ def home_task():
     print(new_list)
     print(quick_sort(new_list))
 
-    print("Average time is: ", sort_speed(str_list, 20), 'seconds')
+    print("Average time is: ", sort_speed(str_list, quick_sort, 20), 'seconds')
 
 
-# home_task()
+home_task()
 
