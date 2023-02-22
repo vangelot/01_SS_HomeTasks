@@ -1,9 +1,18 @@
+from flask import Flask, request, redirect, url_for
 
+app = Flask(__name__)
 
-def bulb1(_list):
-    tmp = _list
-    tmp[0] = 'a'
+@app.route('/submit', methods=['POST'])
+def submit():
+    # Обрабатываем данные из формы
+    username = request.form['username']
+    password = request.form['password']
 
-wow = "abcd"
-bulb1(wow)
-print(wow)
+    # Делаем что-то с данными (например, сохраняем их в базу данных)
+
+    # Делаем перенаправление на другую страницу
+    return redirect(url_for('success'))
+
+@app.route('/success')
+def success():
+    return 'Данные успешно отправлены'

@@ -1,6 +1,8 @@
 import random
 from sorting_words import quick_sort_words
 # реалізація через переведення слова в Флоат, але не вистачає розрядів для латиниці
+
+
 def word_to_number(word):
     num = 0.0
     alfa = 0 # minus 1000 if cyrillic
@@ -11,6 +13,7 @@ def word_to_number(word):
     for i in range(len(word)):
         num = num + (ord(word[i])-alfa)*((beta*100)**(-i))
     return num
+
 
 def word1_bigger_word2(word1, word2):
     if word_to_number(word1) > word_to_number(word2):

@@ -2,7 +2,6 @@ from randoms import list_filling
 import random
 
 
-
 def quick_sort_words(_list):
     if len(_list) > 1:
         pivot = random.choice(_list)
