@@ -12,3 +12,4 @@ def square():
     pass
 
 print(square())
+

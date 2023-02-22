@@ -1,13 +1,9 @@
-while True:
-    try:
-        a = int(float(input('enter smth: ')))
-        break
-    except Exception as ex:
-        print('wrong')
-        print(str(ex))
 
-print(int(10.5))
-print(int(True))
 
-b = int(10.5)
-print(b)
+def bulb1(_list):
+    tmp = _list
+    tmp[0] = 'a'
+
+wow = "abcd"
+bulb1(wow)
+print(wow)

@@ -60,5 +60,5 @@ def home_task():
     print("Average time is: ", sort_speed(str_list, quick_sort, 20), 'seconds')
 
 
-home_task()
+# home_task()
 
