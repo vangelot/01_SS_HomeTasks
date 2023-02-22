@@ -27,7 +27,6 @@ def count_words(word):
 @app.route("/")
 @app.route('/home')
 def home():
-
     return render_template("index.html", message2=dict_of_answers[0])
 
 
@@ -55,6 +54,7 @@ def submit_request():
 def go_to_about():
     # Делаем перенаправление на другую страницу
     return redirect(url_for('about'))
+
 
 @app.route('/user/<string:name>/<int:id>')
 def user(name, id):

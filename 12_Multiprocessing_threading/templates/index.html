@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+</head>
+<body>
+    <h1>    Привіт</h1>
+    <h1>Ти на головній сторінці!</h1>
+<form action="/submit_request" method="post">
+    <input type="text" name="num1" placeholder="Enter 1st num: ">
+    <input type="text" name="num2" placeholder="Enter 2nd num: ">
+    <button type="submit">Submit</button>
+</form>
+</body>
+<form action="/go_to_about" method="post">
+    <button onclick="alert('you are going to About page')"
+            type="submit">About
+    </button>
+<body>
+    <h1>{{ message }}</h1>
+    <h1>{{ message2 }}</h1>
+</body>
+</form>
+</html>

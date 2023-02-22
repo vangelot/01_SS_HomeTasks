@@ -14,8 +14,8 @@ def f_gen(x):
 if __name__ == '__main__':
     cpu = os.cpu_count()
     print(f"Your PC has {cpu} cores.")
-    with Pool(cpu) as p:
+    with Pool(processes=16) as p:
         started_at = time.time()
-        print(p.map(f, range(1, 100000)))
-        print(f'Time: {time.time() - started_at}')
+        p.map(f, range(1, 100000))
+        # print(f'Time: {time.time() - started_at}')
 
