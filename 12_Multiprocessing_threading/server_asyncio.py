@@ -12,7 +12,7 @@ mes3 = ''
 
 
 async def plus(a, b):
-    await asyncio.sleep(5)
+    await asyncio.sleep(0)
     global mes1
     try:
         mes1 = str(int(a) + int(b))
@@ -23,7 +23,7 @@ async def plus(a, b):
 
 
 async def minus(a, b):
-    await asyncio.sleep(0)
+    await asyncio.sleep(4)
     global mes2
     try:
         mes2 = str(int(a) - int(b))
@@ -34,7 +34,7 @@ async def minus(a, b):
 
 
 async def multiply(a, b):
-    await asyncio.sleep(7)
+    await asyncio.sleep(10)
     global mes3
     try:
         mes3 = str(int(a) * int(b))
@@ -47,7 +47,7 @@ async def multiply(a, b):
 @app.route("/")
 @app.route('/home')
 def home():
-    return render_template("index.html", message2="hello world")
+    return render_template("index.html")
 
 
 @app.route('/go_to_about', methods=['POST'])
@@ -66,21 +66,22 @@ def about():
     return render_template("about.html")
 
 
-@app.route('/submit_plus', methods=['POST'])
-async def submit_plus():
+@app.route('/submit', methods=['POST'])
+async def submit():
     val1 = request.form['num1']
     val2 = request.form['num2']
     # await plus(val1, val2)
     if "plus-button" in request.form:
-        print("yoyo")
+        print("we are in submit: plus")
         await plus(val1, val2)
     if "minus-button" in request.form:
+        print("we are in submit: minus")
         await minus(val1, val2)
     if "multiply-button" in request.form:
+        print("we are in submit: multiply")
         await multiply(val1, val2)
-        print("11 multy 11")
-    await asyncio.sleep(3)
-    return render_template('index.html', message1=mes1,message2=mes2, message3=mes3, val1=val1, val2=val2)
+    await asyncio.sleep(1)
+    return render_template('index.html', message1=mes1, message2=mes2, message3=mes3, val1=val1, val2=val2)
 
 if __name__ == "__main__":
     app.run(debug=True)
