@@ -79,7 +79,7 @@ async def submit_plus():
     if "multiply-button" in request.form:
         await multiply(val1, val2)
         print("11 multy 11")
-
+    await asyncio.sleep(3)
     return render_template('index.html', message1=mes1,message2=mes2, message3=mes3, val1=val1, val2=val2)
 
 if __name__ == "__main__":
