@@ -10,19 +10,21 @@
 <body>
     <h1>    Привіт</h1>
     <h1>Ти на головній сторінці!</h1>
-<form action="/submit_request" method="post">
-    <input type="text" name="num1" placeholder="Enter 1st num: ">
-    <input type="text" name="num2" placeholder="Enter 2nd num: ">
-    <button type="submit">Submit</button>
+<form action="/submit_plus" method="post">
+    <input type="text" name="num1" placeholder="Enter 1st num: " value={{val1}}>
+    <input type="text" name="num2" placeholder="Enter 2nd num: " value="{{val2}}">
+    <button type="submit" name="plus-button">plus</button>
+    <button type="submit" name="minus-button">minus</button>
+    <button type="submit" name="multiply-button">multiply</button>
 </form>
-</body>
 <form action="/go_to_about" method="post">
     <button onclick="alert('you are going to About page')"
             type="submit">About
     </button>
-<body>
-    <h1>{{ message }}</h1>
-    <h1>{{ message2 }}</h1>
-</body>
 </form>
+    <h1> Plus: {{ message1 }}</h1>
+    <h1> Minus: {{ message2 }}</h1>
+    <h1> Multiply: {{ message3 }}</h1>
+</body>
+
 </html>
