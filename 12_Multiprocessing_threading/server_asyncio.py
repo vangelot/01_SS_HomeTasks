@@ -14,7 +14,10 @@ mes3 = ''
 async def plus(a, b):
     await asyncio.sleep(5)
     global mes1
-    mes1 = str(int(a) + int(b))
+    try:
+        mes1 = str(int(a) + int(b))
+    except:
+        mes1='error'
     print("plus")
     # return None
 
@@ -22,7 +25,10 @@ async def plus(a, b):
 async def minus(a, b):
     await asyncio.sleep(0)
     global mes2
-    mes2 = str(int(a) - int(b))
+    try:
+        mes2 = str(int(a) - int(b))
+    except:
+        mes2='error'
     print("minus")
     # return None
 
@@ -30,7 +36,10 @@ async def minus(a, b):
 async def multiply(a, b):
     await asyncio.sleep(7)
     global mes3
-    mes3 = str(int(a) * int(b))
+    try:
+        mes3 = str(int(a) * int(b))
+    except:
+        mes3='error'
     print("multiply")
     # return None
 
