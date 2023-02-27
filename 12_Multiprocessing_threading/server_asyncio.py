@@ -12,35 +12,35 @@ mes3 = ''
 
 
 async def plus(a, b):
-    await asyncio.sleep(0)
     global mes1
     try:
         mes1 = str(int(a) + int(b))
+        await asyncio.sleep(0)
+        print("plus")
     except:
         mes1='error'
-    print("plus")
     # return None
 
 
 async def minus(a, b):
-    await asyncio.sleep(4)
     global mes2
     try:
         mes2 = str(int(a) - int(b))
+        await asyncio.sleep(4)
+        print("minus")
     except:
         mes2='error'
-    print("minus")
     # return None
 
 
 async def multiply(a, b):
-    await asyncio.sleep(10)
     global mes3
     try:
         mes3 = str(int(a) * int(b))
+        await asyncio.sleep(10)
+        print("multiply")
     except:
         mes3='error'
-    print("multiply")
     # return None
 
 
@@ -80,7 +80,7 @@ async def submit():
     if "multiply-button" in request.form:
         print("we are in submit: multiply")
         await multiply(val1, val2)
-    await asyncio.sleep(1)
+    # await asyncio.sleep(1)
     return render_template('index.html', message1=mes1, message2=mes2, message3=mes3, val1=val1, val2=val2)
 
 if __name__ == "__main__":
