@@ -25,17 +25,21 @@ def in_order(node):
         in_order(node.right)
 
 
-tree = Tree(1)
-tree.left = Tree(2)
-tree.left.left = Tree(3)
-tree.left.right = Tree(4)
-tree.right = Tree(5)
+tree = Tree(10)
 
-tree.insert(7)
-tree.insert(12)
+
+tree.insert(6)
+tree.insert(4)
 tree.insert(8)
 tree.insert(22)
 tree.insert(14)
 
-print(tree)
+print(tree.left)
+print(tree.right)
+print(tree.left.left)
+print(tree.left.right)
+# tree.print_tree()
 
+# print(tree.right.right.right.left)
+# print(tree.right.right.right.right)
+# print(tree.right.right.right.right.left)
