@@ -20,7 +20,10 @@ def main():
     # на результат через print(tree2.right.left....etc)
 
     # саме цікаве видалення:
-    tree2.delete_node(4)
+    try:
+        tree2.delete_node(4)
+    except:
+        print('ERROR, no node')
 
     print(tree2.right.left.right)
     # print(None.find_node(10))
