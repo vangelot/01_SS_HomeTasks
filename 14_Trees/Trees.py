@@ -34,7 +34,8 @@ class Tree:
                 else:
                     self.right.insert(id_node)
         else:
-            self.id_node = Tree(id_node)
+            print('node is empty', id_node)
+            self.id_node = id_node
 
     # find_val method to compare the id_node with nodes
     def find_val(self, find_val):
@@ -59,6 +60,7 @@ class Tree:
 
     def add_list_nodes(self, _list):
         for node in _list:
+            # self.insert(node)
             try:
                 self.insert(node)
                 print(f"node {node} added to tree")
