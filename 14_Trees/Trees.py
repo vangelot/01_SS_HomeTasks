@@ -22,20 +22,21 @@ class Tree:
 
     # Insert method to create nodes
     def insert(self, id_node):
-        if self.id_node:
-            if id_node <= self.id_node:
-                if self.left is None:
-                    self.left = Tree(id_node)
-                else:
-                    self.left.insert(id_node)
-            elif id_node > self.id_node:
-                if self.right is None:
-                    self.right = Tree(id_node)
-                else:
-                    self.right.insert(id_node)
-        else:
-            print('node is empty', id_node)
-            self.id_node = id_node
+        if id_node <= self.id_node:
+            if self.left is None:
+                self.left = Tree(id_node)
+            else:
+                self.left.insert(id_node)
+        elif id_node > self.id_node:
+            if self.right is None:
+                self.right = Tree(id_node)
+            else:
+                self.right.insert(id_node)
+
+        # ЦЕ НЕПРАВИЛЬНИЙ КОД, ЯКИЙ ВЕДЕ ДО ПЕРЕЗАТИРАННЯ НУЛЯ В ДЕРЕВІ
+        # і взагалі він тут не потрібен
+        # else:
+        #     self.id_node = id_node
 
     # find_val method to compare the id_node with nodes
     def find_val(self, find_val):
@@ -72,16 +73,90 @@ class Tree:
         if self.left:
             return self.left.find_min()
         else:
-            return self.id_node
+            return self
 
     def find_max(self):
         if self.right:
             return self.right.find_max()
         else:
-            return self.id_node
+            return self
 
-    def delete_node(self, node):
-        
+    def find_node(self, node_value):
+        if node_value == self.id_node:
+            return self
+        elif node_value < self.id_node:
+            if self.left:
+                return self.left.find_node(node_value)
+            else:
+                print("no such node")
+                return None
+        elif node_value > self.id_node:
+            if self.right:
+                return self.right.find_node(node_value)
+            else:
+                print("no such node")
+                return None
+
+    def find_parent(self, node):
+        if self == node:
+            return self, 0
+        elif node.id_node > self.id_node:
+            if self.right == node:
+                return self, 1
+            else:
+                return self.right.find_parent(node)
+        elif node.id_node <= self.id_node:
+            if self.left == node:
+                return self, -1
+            else:
+                return self.left.find_parent(node)
+        pass
+
+    def delete_node(self, node_value):
+        print("! we are in DELETE method !")
+
+        node_to_del = self.find_node(node_value)
+
+        if node_to_del.left:
+            node_to_insert = node_to_del.left.find_max()
+        else:
+            node_to_insert = node_to_del
+            pass
+
+        node_to_del_parent = self.find_parent(node_to_del)
+        node_to_insert_parent = node_to_del.find_parent(node_to_insert)
+
+        print("node to delete: ", node_to_del)
+        print("node to insert:", node_to_insert)
+        print("node to del Parent: ", node_to_del_parent[0])
+        print("node to insert Parent: ", node_to_insert_parent[0])
+
+        if node_to_del.left and node_to_del.right:
+            if node_to_del_parent[1] == 1:
+                node_to_del_parent[0].right = node_to_insert
+                if node_to_insert_parent[0] != node_to_del:
+                    node_to_insert_parent[0].right = node_to_insert.left
+                    node_to_insert.left = node_to_insert_parent[0]
+                node_to_insert.right = node_to_del.right
+            if node_to_del_parent[1] == -1:
+                node_to_del_parent[0].left = node_to_insert
+                if node_to_insert_parent[0] != node_to_del:
+                    node_to_insert_parent[0].right = None
+                    node_to_insert.left = node_to_insert_parent[0]
+                node_to_insert.right = node_to_del.right
+
+        elif node_to_del.left is None and node_to_del.right is None:
+            if node_to_del_parent[1] == 1:
+                node_to_del_parent[0].right = None
+            elif node_to_del_parent[1] == -1:
+                node_to_del_parent[0].left = None
+        elif node_to_del.right is None:
+            node_to_del_parent[0].right = node_to_insert
+        elif node_to_del.left is None:
+            node_to_del_parent[0].left = node_to_del.right
+
+
+
         pass
     # def add_bts_node(self, value):
     #     if value is None:
