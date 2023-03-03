@@ -33,5 +33,6 @@ def main():
     print(a.lengthOfLongestSubstring('asdfaq'))
     pass
 
+
 if __name__=='__main__':
     main()
