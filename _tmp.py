@@ -1,19 +1,13 @@
 
 print(__name__)
 
-a1 = 3.0
-a2 = 9.0
+def func_return_many():
+    return 1, 2, 3, 4
 
-b1 = 3.0
-b2 = 9.0
+print(sum(func_return_many()))
 
-a1 = a1/a2
-b1 = b1*200/b2 /200
+_list = ('bbb','ccc')
+c = 'q'
 
 
-print(a1, b1)
-
-if a1 == b1:
-    print('equal')
-else:
-    print('not equal')
+print(tuple(c))
