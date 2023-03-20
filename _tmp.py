@@ -7,7 +7,8 @@ def func_return_many():
 print(sum(func_return_many()))
 
 _list = ('bbb','ccc')
-c = 'q'
+c = 'q.b.'
 
+c = c.replace('.', '')#.replace('.','')
 
-print(tuple(c))
+print(c)
