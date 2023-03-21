@@ -12,10 +12,11 @@ class Solution:
             else:
                 i += 1
         return int(res)
+
+
 def main():
     a = Solution()
     print(a.zeroFilledSubarray([1,0,0,0,0,1]))
-
 
 
 if __name__ == '__main__':
