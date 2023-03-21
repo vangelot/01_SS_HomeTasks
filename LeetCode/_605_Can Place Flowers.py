@@ -7,10 +7,8 @@ class Solution:
         while place < len(flowerbed) - 1:
             if flowerbed[place] == 1:
                 place += 2
-                print('skip: ', place-1)
                 continue
             if flowerbed[place+1] == 0:
-                print(place, n)
                 n -= 1
                 place += 2
                 if n == 0:
