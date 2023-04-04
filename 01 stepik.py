@@ -8,3 +8,5 @@ while len(objects) > 0: # доступная переменная objects
     while a in objects:
         objects.remove(a)
 print(len(res))
+
+
