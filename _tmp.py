@@ -19,7 +19,12 @@ def func():
 q = func()
 print('q=',q)
 
-VALUES (1, 'John Doe');
-INSERT INTO employee (id, name, salary)
-VALUES (01, 'John Doe', 10000);
+_list = [1, 2, 3]
 
+print(len(_list))
+
+print(str(_list)+'asdf')
+
+p = (1, None)
+if p[0]:
+    print('DA')
