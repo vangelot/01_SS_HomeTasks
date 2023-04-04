@@ -17,6 +17,7 @@ def shortest_path(graph, name1, name2):
     print("Shortest way is: ", _shortest_path)
     print("Shortest distance: ", nx.shortest_path_length(graph, name1, name2, weight='weight'))
     plt.show()
+    return _shortest_path, nx.shortest_path_length(graph, name1, name2, weight='weight')
 
 
 def main():
@@ -43,8 +44,8 @@ def main():
     plt.show()
 
     try:
-        shortest_path(g, "Hadiach", "Burshtyn")
-        shortest_path(g, "Hadiach123", "Burshtyn")  # помилка бо такого міста немає
+        print(shortest_path(g, "Hadiach", "Burshtyn"))
+        print(shortest_path(g, "Hadiach123", "Burshtyn"))  # помилка бо такого міста немає
     except:
         print('if u don''t see graphs, something went wrong, probably u named no existing Edges')
 
