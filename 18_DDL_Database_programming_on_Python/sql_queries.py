@@ -42,6 +42,6 @@ INSERT INTO employee (id, name, salary) VALUES (%s, %s, %s)
 
 insert = '''
 USE my_first_db;
-INSERT INTO student (id, name) VALUES (1, 'John');
-INSERT INTO employee (id, name, salary) VALUES (1, 'John', 10000);
+INSERT INTO student (id, name) VALUES (50, 'John');
+INSERT INTO employee (id, name, salary) VALUES (50, 'John', 10000);
 '''

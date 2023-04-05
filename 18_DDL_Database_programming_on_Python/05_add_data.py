@@ -18,6 +18,13 @@ def main():
 
     my_cursor = mydb.cursor()
 
+    """
+        This also works:
+        two command in 1 query:
+        
+    my_cursor.execute(sql_queries.insert)
+    """
+
     sql = sql_queries.insert1
     val = (1, 'John')
 
